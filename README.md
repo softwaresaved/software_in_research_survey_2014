@@ -1,4 +1,4 @@
-# Softare in research survey - 2014
+# Software in research survey - 2014
 
 Licence for software in LICENCE file. Licence for data in LICENCE_DATA file.
 
