@@ -52,6 +52,7 @@ def separate_software_packages(df):
     # Add to the parsable strings by also storing the location of one-word strings
     df['Q11_valid_data'] = (df['Q11_valid_data']) | (df['Question 11: Please provide the name(s) of the main research software you use.'].str.count(' ') == 0)
 
+    df.loc[df['Q11_valid_data'] == False, 'Question 11: Please provide the name(s) of the main research software you use.'] = np.nan
     
     print('The dataframe contains the following number of parsable rows:')
     print(df['Q11_valid_data'].value_counts())
