@@ -7,6 +7,13 @@ import numpy as np
 import csv
 import matplotlib.pyplot as plt
 import math
+import seaborn as sns
+from textwrap import wrap
+
+
+# Get details for plots from look up table
+from chart_details_lookup import plot_details
+from chart_details_lookup import reordered_axes
 
 
 DATAFILENAME = "./data/Software-in-research-cleaning.csv"
@@ -18,17 +25,9 @@ def import_csv_to_df(filename):
     :params: get an xls file and a sheetname from that file
     :return: a df
     """
-
-    return pd.read_csv(filename)
     
-def export_df_to_csv(df, filename):
-    """
-    Saves a df as a
-    :params: get an xls file and a sheetname from that file
-    :return: a df
-    """
+    return pd.read_csv(filename)
 
-    return df.to_csv(filename)
 
 def strip_whitespace(df):
     """Removes leading and trailing whitespace
@@ -40,10 +39,8 @@ def strip_whitespace(df):
         try:
             df[column] = df[column].str.strip()
         except:
-            print('Skipping... cannot stip whitespace from non-string columns' )
+            print('Skipping... cannot stip whitespace from non-string columns (Do not panic, it is fine)')
     return df
-
-
 
 
 def get_groupings(df):
@@ -89,7 +86,7 @@ def get_counts(df,grouped_cols):
         # Obviously, stacking a df for a question that's contained
         # in one column does not affect the df
         df_temp = df[grouped_cols[key]].stack()
-        df_counts = pd.DataFrame(data = (df_temp.value_counts(sort = True)), columns = [current_question] )
+        df_counts = pd.DataFrame(data = (df_temp.value_counts(sort=True)), columns = [current_question] )
         # Add percentage col
         df_counts['percentage']= round(100*df_counts[current_question]/df_counts[current_question].sum(),0)
         # Store
@@ -97,23 +94,63 @@ def get_counts(df,grouped_cols):
 
     return univariate_summary_dfs
 
-def plot_bar_charts(dict_of_dfs):
+def plot_basic_charts(dict_of_dfs):
     """
-    Takes a two-column dataframe and plots it
-    :params: a dataframe with two columns (one labels, the other a count), a filename for the resulting chart, a title, and titles for the
-    two axes (if title is None, then nothing is plotted), and a truncate variable which cuts down the number of
-    rows plotted (unless it's 0 at which point all rows are plotted)
-    :return: Nothing, just prints a chart
+    Create a basic plot for each question. Plots of more specific interest will
+    be created in a separate function, because it's impossible to automate it.
+    :params: a dict of dataframe, the imported plot details
+    :return: A list of saved charts
     """
 
     for key in dict_of_dfs:
         df_temp = dict_of_dfs[key]
-        title = df_temp.columns[0]
-        df_temp[title].plot(kind='bar',legend=None,title=title)
-        plt.savefig(STOREFILENAME + key + '.png', format = 'png', dpi = 150)
+        count_colname = df_temp.columns[0]
+        percent_colname = df_temp.columns[1]
+
+        title = plot_details[key][0]
+        labels = df_temp.index
+        labels = [ '\n'.join(wrap(l, 12)) for l in labels ]
+        plt.subplots_adjust(bottom=.3)
+
+        # Create plot for counts
+        fig = df_temp[count_colname].plot(kind='bar',legend=None,title=title)
+        fig.set_xticks(df_temp.index)
+        fig.set_xticklabels(labels)
+        
+
+        plt.ylabel('Count')
+        plt.savefig(STOREFILENAME + 'basic_counts/' + key + '.png', format = 'png', dpi = 150)
+        # Need to clear the frame otherwise I just get the same
+        # plot stored twice!
+        plt.clf()
+        # Create plots for percentages
+        df_temp[percent_colname].plot(kind='bar',legend=None,title=title)
+        plt.ylabel('Percentage')
+        plt.savefig(STOREFILENAME + 'basic_percentage/' + key + '.png', format = 'png', dpi = 150)
     return
 
 
+def plot_basic_seaborn(dict_of_dfs):
+
+    for key in dict_of_dfs:
+        # Read the dfs one at the time
+        df_temp = dict_of_dfs[key]
+        # Title's from the lookup table
+        title = plot_details[key][0]
+        count_colname = df_temp.columns[0]
+        # Some of the labels are really long
+        # we need to cut them up
+        labels = df_temp.index
+        labels = [ '\n'.join(wrap(l, 12)) for l in labels ]
+        # Now plot
+        sns.barplot(x = labels, y = df_temp[count_colname], data = df_temp).set_title(title)
+        plt.subplots_adjust(bottom=.3)
+#        plt.tight_layout()
+        plt.ylabel('Count')
+        plt.xticks(rotation=90)
+        plt.savefig(STOREFILENAME + 'basic_counts/' + key + '.png', format = 'png', dpi = 150)
+
+    return
 
 def main():
     """
@@ -133,9 +170,11 @@ def main():
     # Store results in dict of dfs
     univariate_summary_dfs = get_counts(df,grouped_cols)
 
-    plot_bar_charts(univariate_summary_dfs)
-    
-    export_df_to_csv(df, STOREFILENAME)
+    plot_basic_charts(univariate_summary_dfs)
+
+
+#    plot_basic_seaborn(univariate_summary_dfs)
+
 
 if __name__ == '__main__':
     main()
