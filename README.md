@@ -20,7 +20,7 @@ Data comes from 2014 software in research survey. Original analysis done in Exce
     * Uniformises university names (i.e. replaces "University College London" with "UCL")
     * Separates comma separated answers into multiple columns
     * Uniformises names of software (i.e. replaces "MS Excel" with "Microsoft Excel")
-    * Save as ```Software-in-research-cleaned.csv```
+    * Save as ```Software-in-research-cleaning.csv```
 1. Analyse results
  
 ## Files
@@ -29,7 +29,7 @@ Data directory:
 * ```The use of software in research (Responses) 24 Oct 14 - Form Responses 1.csv``` - the raw (anonymised) data from the survey
 * ```software_in_research_parasable.csv``` - data after processing to make comma separation more straightforward
 * ```Software-in-research-cleaning.openrefine.tar.gz``` - OpenRefine export detailing the cleaning steps
- * ```Software-in-research-cleaned.csv``` - data ready for analysis
+ * ```Software-in-research-cleaning.csv``` - data ready for analysis
 
 Scripts in the main directory:
 
