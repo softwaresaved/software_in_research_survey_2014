@@ -25,13 +25,11 @@ Data comes from 2014 software in research survey. Original analysis done in Exce
  
 ## Files
 
-Input files in data directory:
- * ```The use of software in research (Responses) 24 Oct 14 - Form Responses 1.csv``` - the raw (anonymised) data from the survey
- * ```Software-in-research-cleaned.csv``` - the raw anonymised data after cleaning and so ready for analysis
- * ```Software-in-research-cleaning.openrefine.tar.gz``` - the export file from OpenRefine detailing the cleaning steps
- 
-Processed files in the output directory:
-* software_in_research_parasable.csv - the raw (anonymised) data after being processed to make comma separation more straightforward (see below for details)
+Data directory:
+* ```The use of software in research (Responses) 24 Oct 14 - Form Responses 1.csv``` - the raw (anonymised) data from the survey
+* ```software_in_research_parasable.csv``` - data after processing to make comma separation more straightforward
+* ```Software-in-research-cleaning.openrefine.tar.gz``` - OpenRefine export detailing the cleaning steps
+ * ```Software-in-research-cleaned.csv``` - data ready for analysis
 
 Scripts in the main directory:
 
