@@ -23,7 +23,7 @@ def import_csv_to_df(filename):
     
 def export_df_to_csv(df, filename):
     """
-    Savesn a df as a
+    Saves a df as a
     :params: get an xls file and a sheetname from that file
     :return: a df
     """
