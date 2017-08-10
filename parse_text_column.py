@@ -10,7 +10,7 @@ import math
 
 
 DATAFILENAME = "./data/The use of software in research (Responses) 24 Oct 14 - Form Responses 1.csv"
-STOREFILENAME = "./output/software_in_research_parasable.csv"
+STOREFILENAME = "./data/software_in_research_parasable.csv"
 
 def import_csv_to_df(filename):
     """
