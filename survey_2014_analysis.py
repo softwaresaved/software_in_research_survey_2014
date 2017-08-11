@@ -179,10 +179,14 @@ def main():
     # Store results in dict of dfs
     univariate_summary_dfs = get_counts(df,grouped_cols)
 
+    # Save the basic counts to csvs
+    for key in univariate_summary_dfs:
+        filename = key
+        export_to_csv(univariate_summary_dfs[key], STOREFILENAME + 'summary_csvs/', filename)
+
+
     # Plot all univariate stuff with no frills
     plot_basic_seaborn(univariate_summary_dfs)
-
-
 
 
 if __name__ == '__main__':
