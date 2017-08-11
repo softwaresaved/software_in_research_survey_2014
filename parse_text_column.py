@@ -43,32 +43,32 @@ def separate_software_packages(df):
     :return: a df with a column of clean strings and a new column saying which columns are parsable
     """
 
-    # Replace...
-    # ...semi-colons with commas
-    df['Question 11: Please provide the name(s) of the main research software you use.'] = df['Question 11: Please provide the name(s) of the main research software you use.'].str.replace(';',',')
-    # ...carriage returns with commas
-    df['Question 11: Please provide the name(s) of the main research software you use.'] = df['Question 11: Please provide the name(s) of the main research software you use.'].str.replace('\n',',')
-    # ...'and' with commas
-    df['Question 11: Please provide the name(s) of the main research software you use.'] = df['Question 11: Please provide the name(s) of the main research software you use.'].str.replace('and',',')
-    # Store the location of the parsable strings (i.e. the ones with commas)
-    df['Q11_valid_data'] = df['Question 11: Please provide the name(s) of the main research software you use.'].str.contains(',')
-    
-    # Remove...
-    # ...brackets and the text within them
-    df['Question 11: Please provide the name(s) of the main research software you use.'] = df['Question 11: Please provide the name(s) of the main research software you use.'].str.replace(r'\(.*\)','')
-    # ...inverted commas and the text within them
-    df['Question 11: Please provide the name(s) of the main research software you use.'] = df['Question 11: Please provide the name(s) of the main research software you use.'].str.replace(r'\".*\"','')
-    # ...URLs
-    df['Question 11: Please provide the name(s) of the main research software you use.'] = df['Question 11: Please provide the name(s) of the main research software you use.'].str.replace(r'^https?:\/\/.*[\r\n]*','')
-    # ...multiple commas
-    df['Question 11: Please provide the name(s) of the main research software you use.'] = df['Question 11: Please provide the name(s) of the main research software you use.'].str.replace(r',+',',')
+    # Original colname is really long, so using this to shorten it
+    colname = 'Question 11: Please provide the name(s) of the main research software you use.'
 
-    # Add to the parsable strings by also storing the location of any one-word strings (which are likely to be the name of a single software package)
+    # Things to replace with a comma
+    char_replacees = [';', '\n', 'and', r',+']
+
+    # Things to replace with a space
+    regex_replacees = [r'\(.*\)', r'\".*\"', r'^https?:\/\/.*[\r\n]*']
+
+    for current in char_replacees:
+        df[colname] = df[colname].str.replace(current,',')  
+        print('replacing')   
+
+    for current in regex_replacees:
+        df[colname] = df[colname].str.replace(current,'')
+
+    # Store the location of the parsable strings (i.e. the ones with commas). It adds a True or False dependent
+    # on whether it finds a comma in the appropriate row
+    df['Q11_valid_data'] = df['Question 11: Please provide the name(s) of the main research software you use.'].str.contains(',')
+
+    # Add to the parsable strings by also storing the location of any one-word strings (which are likely to be the name of a single software package). If it's already populated, you use the already populated data.
     df['Q11_valid_data'] = (df['Q11_valid_data']) | (df['Question 11: Please provide the name(s) of the main research software you use.'].str.count(' ') == 0)
 
     # Anything that's not in 'Q11_valid_data' is likely to be too difficult to parse, so kill it all!
     df.loc[df['Q11_valid_data'] == False, 'Question 11: Please provide the name(s) of the main research software you use.'] = np.nan
-    
+
     print('The dataframe contains the following number of parsable rows:')
     print(df['Q11_valid_data'].value_counts())
     
