@@ -29,6 +29,16 @@ def import_csv_to_df(filename):
     return pd.read_csv(filename)
 
 
+def export_to_csv(df, location, filename):
+    """
+    Exports a df to a csv file
+    :params: a df and a location in which to save it
+    :return: nothing, saves a csv
+    """
+
+    return df.to_csv(location + filename + '.csv')
+
+
 def strip_whitespace(df):
     """Removes leading and trailing whitespace
     :params: a df
