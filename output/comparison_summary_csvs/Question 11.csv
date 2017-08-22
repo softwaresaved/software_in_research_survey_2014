@@ -8,689 +8,689 @@ nvivo,27.0,26.0
 stata,24.0,24.0
 imagej,21.0,16.0
 mathematica,16.0,16.0
-origin,15.0,12.0
 labview,15.0,11.0
+origin,15.0,12.0
 microsoft excel,13.0,
 endnote,11.0,13.0
 graphpad prism,10.0,11.0
-latex,9.0,9.0
-minitab,9.0,7.0
-prism,9.0,8.0
 fortran,9.0,8.0
+minitab,9.0,7.0
+latex,9.0,9.0
+prism,9.0,8.0
 idl,7.0,7.0
 gaussian,6.0,4.0
-c++,5.0,9.0
-sigmaplot,5.0,5.0
 root,5.0,5.0
-c,5.0,7.0
-sage,5.0,8.0
+sigmaplot,5.0,5.0
 arcgis,5.0,4.0
+c++,5.0,9.0
+sage,5.0,8.0
 castep,5.0,5.0
-qualtrics,4.0,4.0
+c,5.0,7.0
+sas,4.0,4.0
 perl,4.0,4.0
-bash,4.0,7.0
-maple,4.0,3.0
-igor pro,4.0,4.0
-microsoft office,4.0,2.0
-mestrenova,4.0,2.0
-mendeley,4.0,3.0
 abaqus,4.0,3.0
-mlwin,4.0,5.0
 plink,4.0,3.0
 blast,4.0,3.0
-sas,4.0,4.0
-visual studio,3.0,3.0
-solidworks,3.0,3.0
+microsoft office,4.0,2.0
+mendeley,4.0,3.0
+qualtrics,4.0,4.0
+mlwin,4.0,5.0
+igor pro,4.0,4.0
+maple,4.0,3.0
+bash,4.0,7.0
+mestrenova,4.0,2.0
+access,3.0,5.0
+vasp,3.0,3.0
+word,3.0,4.0
+presentation,3.0,1.0
+pymol,3.0,4.0
+volocity,3.0,3.0
 numpy,3.0,4.0
 comsol,3.0,3.0
+ape,3.0,2.0
+java,3.0,4.0
+amos,3.0,4.0
 paraview,3.0,3.0
 samtools,3.0,3.0
-amos,3.0,4.0
-java,3.0,4.0
-word,3.0,4.0
-ape,3.0,2.0
-vasp,3.0,3.0
-access,3.0,5.0
-psychopy,3.0,2.0
-volocity,3.0,3.0
-pymol,3.0,4.0
-presentation,3.0,1.0
+solidworks,3.0,3.0
 galaxy,3.0,3.0
-haploview,2.0,2.0
-raxml,2.0,2.0
-bristol online survey,2.0,2.0
-gnuplot,2.0,2.0
-vectornti,2.0,
-winbugs,2.0,1.0
-meep,2.0,1.0
-answer,2.0,1.0
-gcc,2.0,1.0
+psychopy,3.0,2.0
+visual studio,3.0,3.0
+omero,2.0,2.0
+sketchup,2.0,
+cplex,2.0,1.0
+cst microwave studio,2.0,2.0
+eclipse,2.0,2.0
+mplus,2.0,2.0
 gatk,2.0,2.0
-mpi,2.0,2.0
-spm,2.0,2.0
-genstat,2.0,2.0
-microsoft access,2.0,
-originpro,2.0,2.0
+vensim,2.0,1.0
+originlab,2.0,1.0
+graphpad,2.0,2.0
+haploview,2.0,2.0
+qgis,2.0,2.0
+gnuplot,2.0,2.0
 p,2.0,
-zotero,2.0,2.0
-cytoscape,2.0,
-flowjo,2.0,1.0
-molpro,2.0,2.0
+octave,2.0,2.0
+clc genomics workbench,2.0,
+gentle,2.0,2.0
+geant4,2.0,2.0
+vectornti,2.0,
+atlas.ti,2.0,2.0
+shell scripts,2.0,3.0
+openfoam,2.0,2.0
 collatex,2.0,2.0
-ansys,2.0,2.0
+eprime,2.0,2.0
+zotero,2.0,2.0
+revman,2.0,2.0
+berkeley madonna,2.0,
+originpro,2.0,2.0
+lammps,2.0,2.0
+qtiplot,2.0,2.0
+genie,2.0,2.0
+flowjo,2.0,1.0
 xmgrace,2.0,1.0
+ms excel,2.0,
+meep,2.0,1.0
+rstudio,2.0,2.0
+winbugs,2.0,1.0
+microsoft access,2.0,
+photoshop,2.0,4.0
+bristol online survey,2.0,2.0
 ndipv4 written by atos origin [belongs to nhs scotl,2.0,
 st,2.0,
-berkeley madonna,2.0,
-octave,2.0,2.0
-cplex,2.0,1.0
-revman,2.0,2.0
-rstudio,2.0,2.0
-vensim,2.0,1.0
-eclipse,2.0,2.0
-ms excel,2.0,
-omero,2.0,2.0
-lammps,2.0,2.0
-clc genomics workbench,2.0,
+spm,2.0,2.0
 magma,2.0,2.0
-qgis,2.0,2.0
-gentle,2.0,2.0
 lasergene,2.0,1.0
-genie,2.0,2.0
-shell scripts,2.0,3.0
-matplotlib,2.0,4.0
-cst microwave studio,2.0,2.0
-qtiplot,2.0,2.0
-nwchem,2.0,2.0
-fenics,2.0,1.0
-openfoam,2.0,2.0
 ccp4,2.0,2.0
-gsea,2.0,
-eprime,2.0,2.0
-mplus,2.0,2.0
+raxml,2.0,2.0
+nwchem,2.0,2.0
+genstat,2.0,2.0
+gcc,2.0,1.0
 sam tools,2.0,2.0
-geant4,2.0,2.0
-graphpad,2.0,2.0
-sketchup,2.0,
-atlas.ti,2.0,2.0
+cytoscape,2.0,
+matplotlib,2.0,4.0
+mpi,2.0,2.0
+molpro,2.0,2.0
 gams,2.0,1.0
-originlab,2.0,1.0
-photoshop,2.0,4.0
-irfanview,1.0,1.0
-libatoms/quip,1.0,
-multisim,1.0,1.0
-filezilla,1.0,1.0
-analysis sources: wok,1.0,
-various in-house python routines,1.0,
-programming,1.0,
-dco,1.0,1.0
-tair,1.0,
-opentidalfarm,1.0,1.0
-olex2,1.0,
-coot,1.0,3.0
-... i have maybe interpreted too tightly your definition,1.0,
-various bespoke software for aircraft design synthesis,1.0,
-gephi,1.0,1.0
-rokdoc,1.0,1.0
-lidar,1.0,
-bwa,1.0,
-trinity,1.0,1.0
-plink-seq,1.0,1.0
-html,1.0,1.0
-sansview,1.0,1.0
-irap-rms,1.0,1.0
-text processing software,1.0,1.0
-thesaurus linguae graecae,1.0,1.0
-dnastar lasergene,1.0,1.0
-vmd,1.0,1.0
-banxia,1.0,1.0
-asp.net,1.0,1.0
-cp2k,1.0,1.0
-velvet,1.0,1.0
-bash scripting,1.0,
-qub,1.0,1.0
-clan,1.0,1.0
-past hammer,1.0,1.0
-mcm mapper,1.0,1.0
-abinit,1.0,1.0
-david,1.0,1.0
-meme,1.0,1.0
-cubempi,1.0,1.0
-livecode,1.0,2.0
-kidney.optimalmatching.com,1.0,
-r for data analysis. the remaining software comprises assorted programs i wrote in python,1.0,
-mayavi,1.0,1.0
-stanfordnlp,1.0,1.0
-tinnr,1.0,1.0
-factiva,1.0,1.0
-multiple self-written scripts in r,1.0,
-igor,1.0,1.0
-gpde,1.0,1.0
-fast-lmm,1.0,1.0
-genepattern,1.0,
-copasi,1.0,1.0
-gdal,1.0,1.0
-garand,1.0,1.0
-intrgrated genomics viewer,1.0,
-ls dyna,1.0,
-mainly online resources for the analysis of dna/rna sequences,1.0,
-sed,1.0,1.0
-cygwin,1.0,
-seisworks,1.0,1.0
-cryomeas,1.0,1.0
-solve,1.0,
-plastimatch,1.0,
-muscle,1.0,1.0
-coin-or,1.0,
-papers3,1.0,1.0
-gimp/adobe photoshop,1.0,
-my own software written in r or c++,1.0,
-thermal,1.0,
-emim,1.0,1.0
-visual basic,1.0,2.0
-grasshopper,1.0,
-diamond light source control software,1.0,1.0
-occasional octave,1.0,
-oxmetrics,1.0,1.0
-hydra,1.0,1.0
-dmacrys,1.0,1.0
-spectrum,1.0,
-i forget the name - it was to do with a funding application in which i was co-applicant,1.0,
-are used to generate data.  so i limited myself to analysing,1.0,
-perl scripts,1.0,
-maplesoft,1.0,1.0
-veda-fe,1.0,
-xl,1.0,1.0
-gp/pari,1.0,
-commercial software in beta phase such as kinect sdk's etc,1.0,
-phyre,1.0,
-biomodels,1.0,
-grams,1.0,1.0
-mostly privately developed software written by the research community.,1.0,
-mathcad,1.0,1.0
-visualization software,1.0,
-perl express,1.0,1.0
-c/c++,1.0,
-too numerous to list,1.0,
-syngene genetools,1.0,1.0
-phenix,1.0,1.0
-htseq,1.0,
-equipop,1.0,
-leica af,1.0,1.0
-my researchers work. the codes are developed to solve specific research problems where there are currently no commercial codes available.,1.0,
-knowitall,1.0,
-rhinoceros 5,1.0,
-snap,1.0,1.0
-whatever my statistician tells me!!,1.0,
-petsc,1.0,
-rnaseq software,1.0,
-elan,1.0,1.0
-ms office,1.0,
-eeglab,1.0,
-diurnal,1.0,
-implementing them to assess their performance.,1.0,
-simpack,1.0,1.0
-agilentchem station,1.0,
-self-written code in cuda,1.0,
-gulp,1.0,1.0
-horace,1.0,1.0
-odbc database,1.0,
-raspa,1.0,1.0
-the statistical language r,1.0,
-geosegregationanalyser,1.0,
-awk,1.0,1.0
-ms outlook,1.0,
-soapdenovo,1.0,1.0
-geochem,1.0,1.0
+ansys,2.0,2.0
+fenics,2.0,1.0
+answer,2.0,1.0
+gsea,2.0,
 knime,1.0,
-including ferret,1.0,
-gmt,1.0,1.0
-assimptote,1.0,1.0
-qsr nvivo,1.0,2.0
-pcr machine software,1.0,
-creo,1.0,1.0
-javascript / ruby scripts for experiments.,1.0,
-open office,1.0,
-hypermesh,1.0,1.0
-tnt,1.0,1.0
-pgplot graphics library,1.0,
-tao,1.0,1.0
-maxqda,1.0,1.0
-minuit,1.0,1.0
-gdc,1.0,1.0
-anastasia,1.0,1.0
-licor software,1.0,1.0
-leda,1.0,
-connectivity map,1.0,
-visualisation system,1.0,
-weka,1.0,1.0
-datastream,1.0,1.0
-gdma,1.0,1.0
-i develop my own software. my research in on computer vision,1.0,
-uk met office unified model,1.0,1.0
-gensat,1.0,1.0
-pasw/spss,1.0,
-mestranova,1.0,
-packmol,1.0,1.0
-graphlab,1.0,
-pyop2,1.0,
-haskell various research versions: eden gph,1.0,
-occasional quantumgis,1.0,
-fraclac,1.0,1.0
-rmcprofile,1.0,1.0
-objectpascal,1.0,1.0
-chem station,1.0,
-openrefine,1.0,1.0
-many proprietary softwares for individual analytical instruments,1.0,
-doflin-adjoint,1.0,1.0
-winspec,1.0,
-revman/review manager,1.0,
-googleearth,1.0,1.0
-parma,1.0,1.0
-gromacs,1.0,1.0
-stars,1.0,1.0
-arcmap,1.0,1.0
-java tree view,1.0,1.0
-dna sequence analysis software,1.0,
-aramine,1.0,
-ocaml,1.0,1.0
-lucence,1.0,1.0
-stan,1.0,1.0
-western blot reader software.,1.0,
-nodexl,1.0,1.0
-nemrodw,1.0,1.0
-firedrake,1.0,1.0
-materials studio,1.0,1.0
-as,1.0,
-ipython,1.0,1.0
-geany,1.0,1.0
-self-written software coded in c,1.0,
-windiets,1.0,
-xfdtd,1.0,1.0
-grads,1.0,1.0
-go,1.0,1.0
-canvas,1.0,1.0
-ambertools,1.0,1.0
-chemdraw,1.0,2.0
-path-o-gen,1.0,1.0
-cambridge crystallographic data centre programs,1.0,1.0
-ghostscript,1.0,
-clewin,1.0,1.0
-integrated genome browser,1.0,1.0
-gap - groups algorithms programming,1.0,
-its contributed packages,1.0,
-sap2011,1.0,1.0
-inspiration,1.0,
-vba,1.0,1.0
-control desk,1.0,
-see http://www.alberta-fem.de/,1.0,
-bluehill,1.0,
-in cell investigator,1.0,1.0
-sequenceserver,1.0,
-i write my own codes to run simulations,1.0,
-primer3,1.0,1.0
-python scripts written by myself including matplotlip/numpy/scipy,1.0,
-microsoft word,1.0,
-osirix,1.0,1.0
-i'm now flailing around looking for an alternative since it was withdrawn.,1.0,
-cdo etc.,1.0,
-jws online,1.0,
-grace,1.0,1.0
-kingdom,1.0,1.0
-nu plasma mc-icp-ms propriety software,1.0,
-toolkit.optimalmatching.com,1.0,
-adol-c,1.0,1.0
-gimp,1.0,3.0
-shell,1.0,1.0
-bespoke processing,1.0,
-multiple others,1.0,
-diva,1.0,
-bloomberg,1.0,1.0
-refman,1.0,1.0
-software in r that i have written myself.,1.0,
-gnumeric sometimes,1.0,
-premim,1.0,1.0
-adobe acrobat,1.0,
-webmo,1.0,1.0
-newbler,1.0,1.0
-fbat,1.0,1.0
-matlab/simulink,1.0,
-awr microwave office,1.0,1.0
-ms based,1.0,
-clang,1.0,1.0
-besa,1.0,
-emacs,1.0,1.0
-antconc,1.0,1.0
-leica lf af,1.0,
-snptest,1.0,1.0
-camcasp,1.0,1.0
-flex,1.0,1.0
-alberta-fem,1.0,1.0
-justbio,1.0,1.0
-mendel,1.0,1.0
-pubmed,1.0,
-mturk,1.0,
-rdf3x,1.0,1.0
-ibm spss,1.0,2.0
-multiple for analysis of gwas,1.0,
-own software in c++,1.0,
-mega,1.0,1.0
-sbsi,1.0,1.0
-nvivo qualitative data analysis,1.0,
-fsl,1.0,2.0
-qiqqa,1.0,1.0
-b,1.0,
-rotorgene 6,1.0,1.0
-petsci,1.0,1.0
-beast,1.0,1.0
-egret,1.0,1.0
-mercury,1.0,1.0
-arcinfo,1.0,
-arduino ide,1.0,1.0
-simple pci,1.0,1.0
-online data,1.0,
-mutsig,1.0,
-onetep,1.0,1.0
-various pacs systems,1.0,
-envi-met,1.0,1.0
-bespoke internal software such as vfp,1.0,
-self-written code in python,1.0,
-facs diva,1.0,1.0
-various analysis,1.0,
-penelope,1.0,1.0
-therefore it involves designing algorithms,1.0,
-dali,1.0,
-usually in c++ using freely available compilers.,1.0,
-recpack,1.0,1.0
-self-written code in c++,1.0,1.0
-diprobase,1.0,1.0
-topas,1.0,
-python/sage,1.0,
-chorus analytics,1.0,1.0
-varbrule,1.0,1.0
-my group has written a lot of software that is not available elsewhere,1.0,
-crystaloptimizer,1.0,1.0
-caris,1.0,1.0
-flow jo,1.0,1.0
-xml,1.0,
-box models.,1.0,
-nquery,1.0,1.0
-etc,1.0,1.0
-sente,1.0,1.0
-ms power point,1.0,
-cluster 3,1.0,1.0
-discovery studio visualizer,1.0,1.0
-self-written code in bash,1.0,
-which external organisations use.,1.0,
-geov,1.0,1.0
-biodare,1.0,1.0
-n/a,1.0,
-written by myself,1.0,
-gda  & traymaker,1.0,
-mysql,1.0,1.0
-quantumespresso,1.0,1.0
-scipy & matplotlib,1.0,
-jenkins,1.0,1.0
-repast simphony,1.0,1.0
-opensesame,1.0,1.0
-igv,1.0,1.0
-brain voyager qx,1.0,
-cardiff teleform,1.0,1.0
-own-developed fortran,1.0,
-crystalpredictor,1.0,1.0
-molpak,1.0,1.0
-mapinfo,1.0,1.0
-pgi,1.0,1.0
-illumina genomestudio,1.0,1.0
-google search engine,1.0,1.0
-g-power,1.0,
-for gcmc simulations,1.0,
-mapqtl,1.0,1.0
-virtual manuscript room,1.0,1.0
-global phasing,1.0,2.0
-rosetta,1.0,
-sometimes sas or r,1.0,1.0
-some are freely available on the web.,1.0,
-impute2,1.0,
-baps,1.0,1.0
-ansys apdl .,1.0,
-celldesigner,1.0,
-enthought canopy,1.0,1.0
-chemdraw ultra,1.0,1.0
-as many in-house codes,1.0,
-nusmv,1.0,1.0
-chemical modelling / drawing  software:,1.0,
-maxchelator,1.0,1.0
-github.,1.0,1.0
-c#,1.0,1.0
-primer 6+,1.0,
-velvet/oases,1.0,1.0
-statistical package:r,1.0,
-snopt,1.0,1.0
-mendelay,1.0,
-dedoose,1.0,1.0
-pyroot,1.0,1.0
-layoutbeamer,1.0,1.0
-mostly un-named.,1.0,
-dendroscope,1.0,1.0
-comsol multiphysics,1.0,1.0
-pari,1.0,1.0
-psyscope,1.0,1.0
-tapenade,1.0,1.0
-mendley,1.0,
-carsim,1.0,1.0
-fasttree,1.0,1.0
-ghostview,1.0,
-superlab,1.0,
-more4abm,1.0,1.0
-cape-open flowsheeting environment,1.0,1.0
-bash/python scripting,1.0,
-programming languages: fortran,1.0,
-have developed my own,1.0,
-opencossan,1.0,1.0
-clc main,1.0,1.0
-graphviz,1.0,1.0
-ms word,1.0,
-plato,1.0,1.0
-gnss processing,1.0,1.0
-spectral mhd codes.,1.0,1.0
-adobe suite,1.0,
-cst,1.0,1.0
-insite,1.0,1.0
-many others,1.0,
-impute,1.0,1.0
-ipa,1.0,1.0
-image pro plus,1.0,1.0
-gpaw,1.0,1.0
-or labview,1.0,
-kaleidograph,1.0,1.0
-structure,1.0,1.0
-tweetdeck,1.0,1.0
-besa statistics,1.0,
-maus,1.0,1.0
-athena,1.0,1.0
-bowtie,1.0,1.0
-in as much as all the microcontroller we use,1.0,
-custom code in matlab,1.0,
-adobe photoshop,1.0,
-routing,1.0,
-mgopt,1.0,1.0
-mesquite.,1.0,1.0
-fiji,1.0,1.0
-illustrator,1.0,2.0
-spinworks nmr,1.0,
-chromquest,1.0,
-cesm,1.0,1.0
-splus,1.0,1.0
-poped,1.0,
-visualisation tools,1.0,
-kingdom suite,1.0,1.0
-fledermaus,1.0,1.0
-crystals,1.0,
-libreoffice calc,1.0,
-earth system model i mostly wrote. other global environmental models . myriad scripts,1.0,
-texniccenter,1.0,1.0
-mistress,1.0,1.0
-sam,1.0,1.0
-serial cloner,1.0,2.0
-bioedit,1.0,1.0
-amber,1.0,1.0
-intel fortran,1.0,
-linux code,1.0,1.0
-algorithms written in a range of coding languages,1.0,
-crafty,1.0,1.0
-home-made software: music,1.0,
-tecplot,1.0,1.0
-rna folding predictions,1.0,
-javascript,1.0,2.0
-cosa,1.0,1.0
-ir,1.0,
-mpb,1.0,1.0
-leica lite,1.0,1.0
-imaris,1.0,
-self-built models in gams java,1.0,
-opensim,1.0,1.0
-kaleida graph,1.0,1.0
-abi prism 7700,1.0,1.0
-clustal at ncbi,1.0,
-feedly,1.0,1.0
-image analysis,1.0,
-unscrambler,1.0,1.0
-4peaks,1.0,1.0
-protein structural analysis,1.0,
-aracne,1.0,
-various programs from genepattern suite,1.0,
-timing-driven versatile placement,1.0,
-oxygen,1.0,1.0
-dl_poly,1.0,2.0
-propietary software at leeds: mg,1.0,
-shapeit,1.0,1.0
-unphased,1.0,1.0
 gudrun,1.0,
-sas institute jmp,1.0,1.0
-search engines,1.0,
-some commercial support software tools .,1.0,
-mongodb,1.0,1.0
-merlin,1.0,1.0
-fonts,1.0,
-stattransfer,1.0,1.0
-gmin .,1.0,
-chem office,1.0,
-evernote,1.0,1.0
-freesurfer. ms-excel/libreoffice-calc,1.0,
-msc-adams,1.0,1.0
-scikit-learn,1.0,1.0
-adobe illustrator,1.0,
-winlist,1.0,1.0
-eqs,1.0,2.0
-code composer studio,1.0,1.0
-bespoke experimental packages,1.0,
-intel,1.0,1.0
-or other software which may control a data acquisition card,1.0,
-lemon,1.0,
-mrbayes,1.0,1.0
-seqmonk,1.0,1.0
-veda-be,1.0,
-oc,1.0,
-nonmem,1.0,1.0
-ies-ve,1.0,1.0
-accelyrs draw,1.0,
-excel is used for making quick graphs from data tables but not for publishable figures,1.0,
-marvin,1.0,1.0
-ascent for multiskan ascent,1.0,
-computayional chemistry software: dl_poly,1.0,
-globalmapper,1.0,1.0
-instrument specific software for driving various spectrometers / processing data as well.,1.0,
-mega phylogenetics software.,1.0,
-survey monkey,1.0,1.0
-smalt,1.0,1.0
-l-edit,1.0,1.0
-lisp,1.0,1.0
-passage,1.0,1.0
-i was promised training - to do with text analysis,1.0,
-quantumgis,1.0,2.0
-ibm statistics analysis,1.0,1.0
-a plasmid editor.,1.0,
-ms powerpoint,1.0,
-bristol online surveys,1.0,1.0
-mindmanager,1.0,
-statgraphs,1.0,1.0
-panoply,1.0,1.0
-enzymex,1.0,1.0
-spike2,1.0,1.0
-visual studio c++,1.0,
-ucsf chimera,1.0,1.0
-altium,1.0,1.0
-openmpi,1.0,1.0
-ngs data,1.0,
-opus,1.0,1.0
-medcalc,1.0,1.0
-national instruments labview,1.0,1.0
-statistic packages etc,1.0,
-datadesk,1.0,1.0
-bioconductor,1.0,1.0
-open exchange,1.0,1.0
-processing,1.0,1.0
-mathworks,1.0,1.0
-heidelberg mctdh package,1.0,
-xcode,1.0,1.0
-scipy,1.0,4.0
-mctdh,1.0,1.0
-ferret,1.0,2.0
-hypre,1.0,1.0
-sql,1.0,
-neut,1.0,1.0
-sqlserver,1.0,1.0
-plot digitizer,1.0,1.0
-promax,1.0,1.0
-cmap,1.0,1.0
-petromod,1.0,1.0
-agilen ads,1.0,1.0
-ccp4 suite,1.0,2.0
 veda,1.0,1.0
-css,1.0,1.0
-write codes in fortran,1.0,
-ard tools such as matlab,1.0,
-analysis scripts,1.0,
-genespring,1.0,1.0
-the kingdom software,1.0,1.0
-xcalibur,1.0,
-artemis,1.0,1.0
-everything else developed in house,1.0,
-collate,1.0,1.0
-workspace for collaborative editing,1.0,1.0
-mantid,1.0,1.0
-r for statistical analysis,1.0,
-trilinos,1.0,1.0
-auto,1.0,1.0
-fullwave,1.0,1.0
-locally designed video coding software,1.0,
-powerpoint,1.0,3.0
-rest2009,1.0,1.0
-netcdf,1.0,1.0
 gnu scientific library,1.0,
-praat,1.0,2.0
-nco,1.0,1.0
-statistical parametric mapping,1.0,
-autodesk inventor,1.0,
-gummi,1.0,1.0
-fortran 95 - this is used to develop cfd  codes for my,1.0,
+bristol online surveys,1.0,1.0
+stanfordnlp,1.0,1.0
+nemrodw,1.0,1.0
+poped,1.0,
+mayavi,1.0,1.0
+some commercial support software tools .,1.0,
+caris,1.0,1.0
+rokdoc,1.0,1.0
+opentidalfarm,1.0,1.0
+self-written code in c++,1.0,1.0
+pasw/spss,1.0,
+coin-or,1.0,
+raspa,1.0,1.0
+i'm now flailing around looking for an alternative since it was withdrawn.,1.0,
+egret,1.0,1.0
+clc main,1.0,1.0
+mostly privately developed software written by the research community.,1.0,
+topas,1.0,
+tao,1.0,1.0
+copasi,1.0,1.0
+eeglab,1.0,
+passage,1.0,1.0
+dedoose,1.0,1.0
+leica af,1.0,1.0
+mutsig,1.0,
+routing,1.0,
 software to run a nanodrop,1.0,
-cbmc,1.0,1.0
-petrel,1.0,1.0
-flir thermal imaging,1.0,1.0
-proprietary spectroscopy software,1.0,
+programming,1.0,
+multiple others,1.0,
+sequenceserver,1.0,
+maplesoft,1.0,1.0
+sometimes sas or r,1.0,1.0
+plastimatch,1.0,
+tinnr,1.0,1.0
+quantumespresso,1.0,1.0
+serial cloner,1.0,2.0
+clustal at ncbi,1.0,
+tair,1.0,
+tweetdeck,1.0,1.0
+superlab,1.0,
+packmol,1.0,1.0
+chemdraw,1.0,2.0
+facs diva,1.0,1.0
+many others,1.0,
+autodesk inventor,1.0,
+heidelberg mctdh package,1.0,
+gmin .,1.0,
+gpaw,1.0,1.0
+petsci,1.0,1.0
+fonts,1.0,
+revman/review manager,1.0,
+stattransfer,1.0,1.0
+fsl,1.0,2.0
+olex2,1.0,
+self-written code in bash,1.0,
+too numerous to list,1.0,
+control desk,1.0,
 igv genome browser,1.0,1.0
-xlstat,1.0,1.0
-i used bento from filemaker,1.0,
-ccpn,1.0,1.0
-gurobi,1.0,
-various shell/perl scripts,1.0,
-i am not including any electronics design software,1.0,
-visual studio etc,1.0,
-texgen,1.0,1.0
+adobe photoshop,1.0,
+nvivo qualitative data analysis,1.0,
+simple pci,1.0,1.0
+ipython,1.0,1.0
+matlab/simulink,1.0,
+objectpascal,1.0,1.0
+statgraphs,1.0,1.0
+rna folding predictions,1.0,
+whatever my statistician tells me!!,1.0,
+leica lf af,1.0,
+cp2k,1.0,1.0
+opensesame,1.0,1.0
+vmd,1.0,1.0
+amber,1.0,1.0
+occasional octave,1.0,
+auto,1.0,1.0
+plato,1.0,1.0
+molpak,1.0,1.0
+ambertools,1.0,1.0
+papers3,1.0,1.0
+pyop2,1.0,
+oxmetrics,1.0,1.0
+medcalc,1.0,1.0
+chem office,1.0,
+programming languages: fortran,1.0,
+gnss processing,1.0,1.0
+analysis scripts,1.0,
+flex,1.0,1.0
+abinit,1.0,1.0
+varbrule,1.0,1.0
+ms based,1.0,
+haskell various research versions: eden gph,1.0,
+my own software written in r or c++,1.0,
+plink-seq,1.0,1.0
+panoply,1.0,1.0
+visual studio c++,1.0,
+cygwin,1.0,
+sql,1.0,
+cryomeas,1.0,1.0
+ghostview,1.0,
+libreoffice calc,1.0,
+illumina genomestudio,1.0,1.0
+bowtie,1.0,1.0
+grams,1.0,1.0
+diamond light source control software,1.0,1.0
+propietary software at leeds: mg,1.0,
+locally designed video coding software,1.0,
+garand,1.0,1.0
+lucence,1.0,1.0
+insite,1.0,1.0
+r for statistical analysis,1.0,
+more4abm,1.0,1.0
+recpack,1.0,1.0
+smalt,1.0,1.0
 ms words,1.0,
+sente,1.0,1.0
+various bespoke software for aircraft design synthesis,1.0,
+materials studio,1.0,1.0
+mestranova,1.0,
+ms power point,1.0,
+veda-be,1.0,
+various analysis,1.0,
+fledermaus,1.0,1.0
+firedrake,1.0,1.0
+gummi,1.0,1.0
+chem station,1.0,
+fast-lmm,1.0,1.0
+unphased,1.0,1.0
+awk,1.0,1.0
+bash scripting,1.0,
+nco,1.0,1.0
+xl,1.0,1.0
+maxqda,1.0,1.0
+comsol multiphysics,1.0,1.0
+mctdh,1.0,1.0
+leica lite,1.0,1.0
+weka,1.0,1.0
+visual basic,1.0,2.0
+opensim,1.0,1.0
+gurobi,1.0,
+its contributed packages,1.0,
+stan,1.0,1.0
+analysis sources: wok,1.0,
+winspec,1.0,
+brain voyager qx,1.0,
+diva,1.0,
+etc,1.0,1.0
+jws online,1.0,
+mega phylogenetics software.,1.0,
+past hammer,1.0,1.0
+abi prism 7700,1.0,1.0
+veda-fe,1.0,
+the kingdom software,1.0,1.0
+ferret,1.0,2.0
+mainly online resources for the analysis of dna/rna sequences,1.0,
+multisim,1.0,1.0
+... i have maybe interpreted too tightly your definition,1.0,
+merlin,1.0,1.0
+grads,1.0,1.0
+pcr machine software,1.0,
+neut,1.0,1.0
+cosa,1.0,1.0
+survey monkey,1.0,1.0
+sqlserver,1.0,1.0
+alberta-fem,1.0,1.0
+search engines,1.0,
+dali,1.0,
+diprobase,1.0,1.0
+earth system model i mostly wrote. other global environmental models . myriad scripts,1.0,
+ucsf chimera,1.0,1.0
+primer3,1.0,1.0
+have developed my own,1.0,
+home-made software: music,1.0,
+xcalibur,1.0,
+cluster 3,1.0,1.0
+bloomberg,1.0,1.0
+gda  & traymaker,1.0,
+mturk,1.0,
+impute2,1.0,
+vba,1.0,1.0
+dl_poly,1.0,2.0
+statistic packages etc,1.0,
+quantumgis,1.0,2.0
+datastream,1.0,1.0
+agilentchem station,1.0,
+algorithms written in a range of coding languages,1.0,
+open exchange,1.0,1.0
+some are freely available on the web.,1.0,
+chemical modelling / drawing  software:,1.0,
+igv,1.0,1.0
+scipy & matplotlib,1.0,
+snopt,1.0,1.0
+agilen ads,1.0,1.0
+coot,1.0,3.0
+crystals,1.0,
+seqmonk,1.0,1.0
+nonmem,1.0,1.0
+python scripts written by myself including matplotlip/numpy/scipy,1.0,
+scipy,1.0,4.0
+hypermesh,1.0,1.0
+mendelay,1.0,
+image analysis,1.0,
+many proprietary softwares for individual analytical instruments,1.0,
+n/a,1.0,
+justbio,1.0,1.0
+mesquite.,1.0,1.0
+bwa,1.0,
+ms powerpoint,1.0,
+meme,1.0,1.0
+fiji,1.0,1.0
+self-written code in cuda,1.0,
+fbat,1.0,1.0
+petrel,1.0,1.0
+rest2009,1.0,1.0
+tnt,1.0,1.0
+pyroot,1.0,1.0
+emacs,1.0,1.0
+rnaseq software,1.0,
+antconc,1.0,1.0
+equipop,1.0,
+c/c++,1.0,
+spectrum,1.0,
+cardiff teleform,1.0,1.0
+openrefine,1.0,1.0
+virtual manuscript room,1.0,1.0
+eqs,1.0,2.0
+osirix,1.0,1.0
+perl scripts,1.0,
+cape-open flowsheeting environment,1.0,1.0
+athena,1.0,1.0
+ocaml,1.0,1.0
+visual studio etc,1.0,
+mendley,1.0,
+biodare,1.0,1.0
+national instruments labview,1.0,1.0
+lisp,1.0,1.0
+flir thermal imaging,1.0,1.0
+mysql,1.0,1.0
+snptest,1.0,1.0
+4peaks,1.0,1.0
+linux code,1.0,1.0
+kaleidograph,1.0,1.0
+cbmc,1.0,1.0
+awr microwave office,1.0,1.0
+g-power,1.0,
+mapinfo,1.0,1.0
+aracne,1.0,
+ms word,1.0,
+visualisation system,1.0,
+adobe illustrator,1.0,
+baps,1.0,1.0
+statistical parametric mapping,1.0,
+graphviz,1.0,1.0
+crafty,1.0,1.0
+mathcad,1.0,1.0
+occasional quantumgis,1.0,
+irap-rms,1.0,1.0
+promax,1.0,1.0
+filezilla,1.0,1.0
+ghostscript,1.0,
+oc,1.0,
+in cell investigator,1.0,1.0
+cdo etc.,1.0,
+various shell/perl scripts,1.0,
+knowitall,1.0,
+pgplot graphics library,1.0,
+global phasing,1.0,2.0
+chemdraw ultra,1.0,1.0
+r for data analysis. the remaining software comprises assorted programs i wrote in python,1.0,
+qsr nvivo,1.0,2.0
+nodexl,1.0,1.0
+ibm spss,1.0,2.0
+geosegregationanalyser,1.0,
+adobe suite,1.0,
+beast,1.0,1.0
+my group has written a lot of software that is not available elsewhere,1.0,
+perl express,1.0,1.0
+mpb,1.0,1.0
+spinworks nmr,1.0,
+c#,1.0,1.0
+python/sage,1.0,
+visualization software,1.0,
+datadesk,1.0,1.0
+thermal,1.0,
+kingdom suite,1.0,1.0
+soapdenovo,1.0,1.0
+protein structural analysis,1.0,
+xlstat,1.0,1.0
+petromod,1.0,1.0
+xfdtd,1.0,1.0
+leda,1.0,
+ccpn,1.0,1.0
+texniccenter,1.0,1.0
+phenix,1.0,1.0
+mantid,1.0,1.0
+java tree view,1.0,1.0
+maus,1.0,1.0
+open office,1.0,
+fullwave,1.0,1.0
+stars,1.0,1.0
+primer 6+,1.0,
+layoutbeamer,1.0,1.0
+bespoke internal software such as vfp,1.0,
+sap2011,1.0,1.0
+globalmapper,1.0,1.0
+cst,1.0,1.0
+self-written software coded in c,1.0,
+parma,1.0,1.0
+i was promised training - to do with text analysis,1.0,
+bioedit,1.0,1.0
+integrated genome browser,1.0,1.0
+powerpoint,1.0,3.0
+trinity,1.0,1.0
+muscle,1.0,1.0
+i forget the name - it was to do with a funding application in which i was co-applicant,1.0,
+qub,1.0,1.0
+rhinoceros 5,1.0,
+cambridge crystallographic data centre programs,1.0,1.0
+oxygen,1.0,1.0
+for gcmc simulations,1.0,
+psyscope,1.0,1.0
+simpack,1.0,1.0
+velvet,1.0,1.0
+dmacrys,1.0,1.0
+css,1.0,1.0
+besa,1.0,
+mistress,1.0,1.0
+intel fortran,1.0,
+microsoft word,1.0,
+computayional chemistry software: dl_poly,1.0,
+spike2,1.0,1.0
+ipa,1.0,1.0
+chromquest,1.0,
+repast simphony,1.0,1.0
+software in r that i have written myself.,1.0,
+xml,1.0,
+tecplot,1.0,1.0
+syngene genetools,1.0,1.0
+envi-met,1.0,1.0
+marvin,1.0,1.0
+fraclac,1.0,1.0
+chorus analytics,1.0,1.0
+kingdom,1.0,1.0
+impute,1.0,1.0
+uk met office unified model,1.0,1.0
+lemon,1.0,
+dendroscope,1.0,1.0
+enzymex,1.0,1.0
+nu plasma mc-icp-ms propriety software,1.0,
+various programs from genepattern suite,1.0,
+i used bento from filemaker,1.0,
+doflin-adjoint,1.0,1.0
+own-developed fortran,1.0,
+bioconductor,1.0,1.0
+webmo,1.0,1.0
+dna sequence analysis software,1.0,
+adol-c,1.0,1.0
+a plasmid editor.,1.0,
+processing,1.0,1.0
+various pacs systems,1.0,
+geany,1.0,1.0
+artemis,1.0,1.0
+premim,1.0,1.0
+phyre,1.0,
+gdma,1.0,1.0
+bluehill,1.0,
+qiqqa,1.0,1.0
+odbc database,1.0,
+including ferret,1.0,
+adobe acrobat,1.0,
+rmcprofile,1.0,1.0
+gimp,1.0,3.0
+carsim,1.0,1.0
+implementing them to assess their performance.,1.0,
+code composer studio,1.0,1.0
+mindmanager,1.0,
+newbler,1.0,1.0
+ascent for multiskan ascent,1.0,
+refman,1.0,1.0
+windiets,1.0,
+own software in c++,1.0,
+evernote,1.0,1.0
+gdc,1.0,1.0
+banxia,1.0,1.0
+mathworks,1.0,1.0
+ls dyna,1.0,
+david,1.0,1.0
+accelyrs draw,1.0,
+unscrambler,1.0,1.0
+my researchers work. the codes are developed to solve specific research problems where there are currently no commercial codes available.,1.0,
+grasshopper,1.0,
+custom code in matlab,1.0,
+gulp,1.0,1.0
+sam,1.0,1.0
+intel,1.0,1.0
+gnumeric sometimes,1.0,
+geochem,1.0,1.0
+or other software which may control a data acquisition card,1.0,
+crystaloptimizer,1.0,1.0
+arcinfo,1.0,
+dnastar lasergene,1.0,1.0
+shell,1.0,1.0
+statistical package:r,1.0,
+mostly un-named.,1.0,
+bespoke experimental packages,1.0,
+fasttree,1.0,1.0
+googleearth,1.0,1.0
+clewin,1.0,1.0
+text processing software,1.0,1.0
+gephi,1.0,1.0
+aramine,1.0,
+the statistical language r,1.0,
+are used to generate data.  so i limited myself to analysing,1.0,
+workspace for collaborative editing,1.0,1.0
+imaris,1.0,
+ies-ve,1.0,1.0
+ibm statistics analysis,1.0,1.0
+google search engine,1.0,1.0
+biomodels,1.0,
+winlist,1.0,1.0
+nquery,1.0,1.0
+sas institute jmp,1.0,1.0
 metamorph,1.0,1.0
+pari,1.0,1.0
+usually in c++ using freely available compilers.,1.0,
+github.,1.0,1.0
+plot digitizer,1.0,1.0
+trilinos,1.0,1.0
+ir,1.0,
+javascript / ruby scripts for experiments.,1.0,
+kaleida graph,1.0,1.0
+proprietary spectroscopy software,1.0,
+opencossan,1.0,1.0
+write codes in fortran,1.0,
+i am not including any electronics design software,1.0,
+graphlab,1.0,
+velvet/oases,1.0,1.0
+camcasp,1.0,1.0
+or labview,1.0,
+elan,1.0,1.0
+clan,1.0,1.0
+written by myself,1.0,
+various in-house python routines,1.0,
+mercury,1.0,1.0
+canvas,1.0,1.0
+ms office,1.0,
+creo,1.0,1.0
+praat,1.0,2.0
+mongodb,1.0,1.0
+mega,1.0,1.0
+visualisation tools,1.0,
+collate,1.0,1.0
+pgi,1.0,1.0
+arduino ide,1.0,1.0
+petsc,1.0,
+enthought canopy,1.0,1.0
+javascript,1.0,2.0
+xcode,1.0,1.0
+gmt,1.0,1.0
+gromacs,1.0,1.0
+lidar,1.0,
+everything else developed in house,1.0,
+feedly,1.0,1.0
+i write my own codes to run simulations,1.0,
+freesurfer. ms-excel/libreoffice-calc,1.0,
+emim,1.0,1.0
+b,1.0,
+bespoke processing,1.0,
+ard tools such as matlab,1.0,
+rdf3x,1.0,1.0
+solve,1.0,
+multiple self-written scripts in r,1.0,
+go,1.0,1.0
+jenkins,1.0,1.0
+sansview,1.0,1.0
+as many in-house codes,1.0,
+see http://www.alberta-fem.de/,1.0,
+factiva,1.0,1.0
+gensat,1.0,1.0
+horace,1.0,1.0
+ngs data,1.0,
+fortran 95 - this is used to develop cfd  codes for my,1.0,
+igor,1.0,1.0
+grace,1.0,1.0
+thesaurus linguae graecae,1.0,1.0
+cubempi,1.0,1.0
+excel is used for making quick graphs from data tables but not for publishable figures,1.0,
+diurnal,1.0,
+arcmap,1.0,1.0
+livecode,1.0,2.0
+seisworks,1.0,1.0
+flow jo,1.0,1.0
+toolkit.optimalmatching.com,1.0,
+splus,1.0,1.0
+cmap,1.0,1.0
+gap - groups algorithms programming,1.0,
+geov,1.0,1.0
+timing-driven versatile placement,1.0,
+besa statistics,1.0,
+discovery studio visualizer,1.0,1.0
+ansys apdl .,1.0,
+rotorgene 6,1.0,1.0
+ccp4 suite,1.0,2.0
+illustrator,1.0,2.0
+gp/pari,1.0,
+penelope,1.0,1.0
+inspiration,1.0,
+scikit-learn,1.0,1.0
+gdal,1.0,1.0
+hydra,1.0,1.0
+assimptote,1.0,1.0
+as,1.0,
+html,1.0,1.0
+openmpi,1.0,1.0
+maxchelator,1.0,1.0
+opus,1.0,1.0
+licor software,1.0,1.0
+dco,1.0,1.0
+path-o-gen,1.0,1.0
+structure,1.0,1.0
+multiple for analysis of gwas,1.0,
+shapeit,1.0,1.0
+clang,1.0,1.0
+cesm,1.0,1.0
+pubmed,1.0,
+asp.net,1.0,1.0
+box models.,1.0,
+therefore it involves designing algorithms,1.0,
+mcm mapper,1.0,1.0
+gpde,1.0,1.0
+texgen,1.0,1.0
+which external organisations use.,1.0,
+anastasia,1.0,1.0
+crystalpredictor,1.0,1.0
+onetep,1.0,1.0
+bash/python scripting,1.0,
+i develop my own software. my research in on computer vision,1.0,
+online data,1.0,
+commercial software in beta phase such as kinect sdk's etc,1.0,
+mrbayes,1.0,1.0
+genepattern,1.0,
+mapqtl,1.0,1.0
+altium,1.0,1.0
+gimp/adobe photoshop,1.0,
+self-written code in python,1.0,
+western blot reader software.,1.0,
+htseq,1.0,
+mendel,1.0,1.0
+msc-adams,1.0,1.0
+sbsi,1.0,1.0
+tapenade,1.0,1.0
+snap,1.0,1.0
+self-built models in gams java,1.0,
+minuit,1.0,1.0
+l-edit,1.0,1.0
+sed,1.0,1.0
+libatoms/quip,1.0,
+intrgrated genomics viewer,1.0,
+genespring,1.0,1.0
+kidney.optimalmatching.com,1.0,
+connectivity map,1.0,
+ms outlook,1.0,
+irfanview,1.0,1.0
+hypre,1.0,1.0
+mgopt,1.0,1.0
+image pro plus,1.0,1.0
+instrument specific software for driving various spectrometers / processing data as well.,1.0,
+celldesigner,1.0,
+rosetta,1.0,
+netcdf,1.0,1.0
+nusmv,1.0,1.0
+in as much as all the microcontroller we use,1.0,
+spectral mhd codes.,1.0,1.0
 image j,,3.0
 astexviewer,,2.0
 capture molecules,,2.0
