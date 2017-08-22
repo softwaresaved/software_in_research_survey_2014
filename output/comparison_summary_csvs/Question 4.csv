@@ -1,43 +1,32 @@
-,Unnamed: 0,Question 4: Which funder currently provides the majority of your funding,Number
-0,epsrc - engineering and physical sciences research council,87.0,
-1,university central funds,50.0,
-2,european union,29.0,
-3,"other foundation, society or charity",28.0,
-4,esrc - economic and social research council,28.0,
-5,don't know,23.0,
-6,nerc - natural environment research council,20.0,
-7,mrc - medical research council,20.0,
-8,industry,17.0,
-9,stfc - science and technology facilities council,14.0,
-10,bbsrc - biotechnology and biological sciences research council,14.0,
-11,wellcome trust,13.0,
-12,nihr,12.0,
-13,ahrc - arts and humanities research council,11.0,
-14,uk government,5.0,
-15,mixed funding,3.0,
-16,self funded,3.0,
-17,non-uk government,3.0,
-18,no funding,2.0,
-19,european research council,2.0,
-20,not known,2.0,
-21,nih,2.0,
-22,not prepared to answer,1.0,
-23,hefce,1.0,
-24,no answer,1.0,
-25,EPSRC - Engineering and Physical Sciences Research Council,,89.0
-26,Others,,68.0
-27,University central funds,,54.0
-28,ESRC - Economic and Social Research Council,,31.0
-29,European,,27.0
-30,Don't know,,26.0
-31,MRC - Medical Research Council,,21.0
-32,NERC - Natural Environment Research Council,,20.0
-33,STFC - Science and Technology Facilities Council,,15.0
-34,BBSRC - Biotechnology and Biological Sciences Research Council,,14.0
-35,National Institute for Health Research,,13.0
-36,Wellcome Trust,,13.0
-37,AHRC - Arts and Humanities Research Council,,10.0
-38,Industry,,6.0
-39,Leverhulme Trust,,6.0
-40,Cancer Research UK,,2.0
-41,Private source,,2.0
+unnamed: 0,new_analysis,old_analysis
+epsrc - engineering and physical sciences research council,87.0,89.0
+university central funds,50.0,54.0
+european union,29.0,
+"other foundation, society or charity",28.0,
+esrc - economic and social research council,28.0,31.0
+don't know,23.0,26.0
+nerc - natural environment research council,20.0,20.0
+mrc - medical research council,20.0,21.0
+industry,17.0,6.0
+stfc - science and technology facilities council,14.0,15.0
+bbsrc - biotechnology and biological sciences research council,14.0,14.0
+wellcome trust,13.0,13.0
+nihr,12.0,
+ahrc - arts and humanities research council,11.0,10.0
+uk government,5.0,
+mixed funding,3.0,
+self funded,3.0,
+non-uk government,3.0,
+no funding,2.0,
+european research council,2.0,
+not known,2.0,
+nih,2.0,
+not prepared to answer,1.0,
+hefce,1.0,
+no answer,1.0,
+others,,68.0
+european,,27.0
+national institute for health research,,13.0
+leverhulme trust,,6.0
+cancer research uk,,2.0
+private source,,2.0

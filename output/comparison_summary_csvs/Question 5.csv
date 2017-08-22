@@ -1,7 +1,7 @@
-,Unnamed: 0,Question 5: How many years have you worked in research,Number
-0,1-5 years,134,142
-1,6-10 years,94,99
-2,More than 20 years,70,73
-3,11-15 years,49,54
-4,15-20 years,33,37
-5,Less than a year,11,12
+unnamed: 0,new_analysis,old_analysis
+1-5 years,134,142
+6-10 years,94,99
+more than 20 years,70,73
+11-15 years,49,54
+15-20 years,33,37
+less than a year,11,12

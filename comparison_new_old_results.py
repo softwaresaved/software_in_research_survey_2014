@@ -5,6 +5,7 @@ import pandas as pd
 import numpy as np
 import csv
 import math
+from universities_lookup import universities
 
 STOREFILENAME = './output/'
 NEW_RESULTS = './output/summary_csvs/'
@@ -49,12 +50,24 @@ def export_to_csv(df, location, filename):
     return df.to_csv(location + filename, index = False)
 
 
-def create_dict_dfs(location):
+def create_dict_dfs(location, old):
     """
     Creates a dict of dfs from a bunch of csvs, lowercases column names
-    :params: location of the csvs
+    :params: location of the csvs, a parameter which says whether working with the old or the new analysis results
     :return: a dict of dfs
     """
+    
+    def q1_clean(df):
+        """
+        Replaces the short university name from the old analysis with the
+        extended university name use with the new analysis
+        :params: a df with short university names, and a dictionary imported from a lookup table
+        :return: a df with extended university names
+        """
+        for key in universities:
+            df.replace(key, universities[key], inplace=True)
+        return df
+    
     dict_dfs = {}
 
     for current in LIST_OF_RESULT_NAMES:
@@ -67,6 +80,10 @@ def create_dict_dfs(location):
         for col in df_current:
             if df_current[col].dtype == object:
                 df_current[col] = df_current[col].astype(str).str.lower()
+        if old == True: 
+            if current == 'Question 1.csv':
+               df_current = q1_clean(df_current)
+
         # Store in dict of dfs
         dict_dfs[current] = df_current
 
@@ -125,8 +142,8 @@ def main():
     """
 
     # Read old and new results into separate dict of dfs
-    dfs_old = create_dict_dfs(OLD_RESULTS)
-    dfs_new = create_dict_dfs(NEW_RESULTS)
+    dfs_old = create_dict_dfs(OLD_RESULTS, True)
+    dfs_new = create_dict_dfs(NEW_RESULTS, False)
 
     dfs_summary_comparison = {}
 

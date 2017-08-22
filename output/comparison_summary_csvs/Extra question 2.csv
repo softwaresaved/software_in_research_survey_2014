@@ -1,6 +1,6 @@
-,Unnamed: 0,Extra question 2: What is your gender,Number
-0,Male,244.0,257
-1,Female,135.0,148
-2,Prefer not to say,7.0,7
-3,Other,2.0,2
-4,No response,,3
+unnamed: 0,new_analysis,old_analysis
+male,244.0,257
+female,135.0,148
+prefer not to say,7.0,7
+other,2.0,2
+no response,,3

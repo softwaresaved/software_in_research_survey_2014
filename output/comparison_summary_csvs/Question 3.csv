@@ -1,11 +1,11 @@
-,Unnamed: 0,Question 3: Which of the following disciplines best applies to your work,Number
-0,"Biological, mathematical & physical sciences",160.0,167
-1,Engineering & technology,76.0,81
-2,"Medicine, dentistry & health",55.0,57
-3,Social studies,38.0,44
-4,Humanities & language based studies & archaeology,34.0,38
-5,Administrative & business studies,8.0,8
-6,"Agriculture, forestry & veterinary science",7.0,7
-7,Education,7.0,7
-8,Architecture & planning,6.0,6
-9,"Design, creative & performing arts",,2
+unnamed: 0,new_analysis,old_analysis
+"biological, mathematical & physical sciences",160.0,167
+engineering & technology,76.0,81
+"medicine, dentistry & health",55.0,57
+social studies,38.0,44
+humanities & language based studies & archaeology,34.0,38
+administrative & business studies,8.0,8
+"agriculture, forestry & veterinary science",7.0,7
+education,7.0,7
+architecture & planning,6.0,6
+"design, creative & performing arts",,2
