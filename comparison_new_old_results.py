@@ -88,6 +88,9 @@ def create_dict_dfs(location, old):
                df_current = clean_by_replacing(df_current, universities)
             if current == 'Extra question 1.csv':
                df_current = clean_by_replacing(df_current, eq1)
+
+               df_current = df_current.groupby('unnamed: 0').number.sum().reset_index()
+               print(df_current)
 #                df_current[] = df_current.loc[df['unnamed: 0'] == postdoc, 'b'].sum()
 
         if old == False:
