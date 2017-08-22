@@ -46,19 +46,28 @@ def export_to_csv(df, location, filename):
     :return: nothing, saves a csv
     """
 
-    return df.to_csv(location + filename)
+    return df.to_csv(location + filename, index = False)
 
 
 def create_dict_dfs(location):
     """
-    Creates a dict of dfs from a bunch of csvs
+    Creates a dict of dfs from a bunch of csvs, lowercases column names
     :params: location of the csvs
     :return: a dict of dfs
     """
     dict_dfs = {}
 
     for current in LIST_OF_RESULT_NAMES:
+        # Import
         df_current = import_csv_to_df(location + current)
+        # make column names lowercase
+        df_current.columns = [x.lower() for x in df_current.columns]
+        # Go through the cols and if they're object types, convert the
+        # strings to lowercase
+        for col in df_current:
+            if df_current[col].dtype == object:
+                df_current[col] = df_current[col].astype(str).str.lower()
+        # Store in dict of dfs
         dict_dfs[current] = df_current
 
     return dict_dfs
@@ -74,10 +83,10 @@ def compare_results(dfs_old, dfs_new):
 
     dfs_summary_comparison = {}
 
-
     # Go through the dfs containing the new results
     for key in dfs_new:
-        # Highlight if a dataframe is missing
+        # First of all, ensure that there's a corresponding
+        # dataframe in the old data, otherwise we're missing something
         if dfs_old[key] is None:
             print('We are missing a dataframe for ' + str(key))
 
@@ -86,27 +95,29 @@ def compare_results(dfs_old, dfs_new):
         old_df_join_col = dfs_old[key].columns[0]
         new_df_join_col = dfs_new[key].columns[0]
 
-#        print(old_df_join_col)
-#        print(new_df_join_col)
+        # Now need to compare the new and old data. It's quite easy because in the old
+        # data, the relevant column is always called "number", so we set...
+        old_data_colname = 'number'
+        # and in the new data, the relevant column has the word "question"
+        # in it, so we set...
+        new_data_colname = [col for col in dfs_new[key].columns if 'question' in col][0]
 
-        # Set (by hand) relevant column name in the old data and automatically
-        # select it in the new data (the column has "uestion" in it)
-        old_data_colname = 'Number'
-        new_data_colname = [col for col in dfs_new[key].columns if 'uestion' in col][0]
-
-#        print(old_data_colname)
-#        print(new_data_colname)
-
+        # Now we create a new dataframe by merging the new and old data (for each question, we're still in the for loop above)
         df_compare = pd.merge(dfs_new[key], dfs_old[key], left_on=new_df_join_col, right_on=old_df_join_col, how='outer')
-        # Drop the percentage column, because it's uneeded and could cause confusion
+        # Make the col names more intuitive
+        df_compare.rename(columns = {old_data_colname:'old_analysis', new_data_colname:'new_analysis'}, inplace = True)
+
+        df_compare.set_index(df_compare[df_compare.columns[0]], inplace = True)
+
+        # Drop the percentage column, and I'm worried it might cause confusion
         df_compare.drop('percentage', 1, inplace=True)
 
-        print(df_compare.isnull())
+#        print(df_compare.isnull())
 
         # Store results in dict of dfs
-#        dfs_summary_comparison[key] = df_compare
+        dfs_summary_comparison[key] = df_compare
 
-    return
+    return dfs_summary_comparison
 
 def main():
     """
@@ -117,13 +128,16 @@ def main():
     dfs_old = create_dict_dfs(OLD_RESULTS)
     dfs_new = create_dict_dfs(NEW_RESULTS)
 
+    dfs_summary_comparison = {}
+
     # Compare results
-    compare_results(dfs_old, dfs_new)
+    dfs_summary_comparison = compare_results(dfs_old, dfs_new)
+    
+#    print(dfs_summary_comparison)
 
     # Save the comparisons to csvs
-#    for key in dfs_summary_comparison:
-#        filename = key
-#        export_to_csv(dfs_summary_comparison[key], STOREFILENAME + 'comparison_summary_csvs/', filename)
+    for key in dfs_summary_comparison:
+        export_to_csv(dfs_summary_comparison[key], STOREFILENAME + 'comparison_summary_csvs/', key)
 
 if __name__ == '__main__':
     main()
