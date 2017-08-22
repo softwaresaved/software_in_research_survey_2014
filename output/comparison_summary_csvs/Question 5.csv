@@ -1,7 +1,7 @@
-unnamed: 0,new_analysis,old_analysis
-1-5 years,134,142
-6-10 years,94,99
-more than 20 years,70,73
-11-15 years,49,54
-15-20 years,33,37
-less than a year,11,12
+unnamed: 0,new_analysis,old_analysis,percentage diff
+1-5 years,134,142,-6.0
+6-10 years,94,99,-5.0
+more than 20 years,70,73,-4.0
+11-15 years,49,54,-9.0
+15-20 years,33,37,-11.0
+less than a year,11,12,-8.0

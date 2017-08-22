@@ -1,6 +1,6 @@
-unnamed: 0,new_analysis,old_analysis
-no training,179,188.0
-self taught,98,61.0
-both self taught and taught course,61,168.0
-taught course,52,0.0
-Other,1,
+unnamed: 0,new_analysis,old_analysis,percentage diff
+no training,179,188.0,-5.0
+self taught,98,61.0,61.0
+both self taught and taught course,61,168.0,-64.0
+taught course,52,0.0,inf
+Other,1,,

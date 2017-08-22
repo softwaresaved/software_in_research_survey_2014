@@ -1,17 +1,17 @@
-unnamed: 0,new_analysis,old_analysis
-imperial college london,52.0,52
-university of bristol,44.0,46
-queen mary university of london,34.0,35
-university of leeds,30.0,32
-university of cambridge,28.0,28
-university of nottingham,23.0,24
-university of glasgow,23.0,24
-ucl,22.0,22
-university of liverpool,22.0,25
-university of sheffield,21.0,23
-university of birmingham,21.0,22
-university of cardiff,20.0,20
-queen's university belfast,20.0,21
-university of edinburgh,16.0,16
-university of newcastle,15.0,15
-n/a,,12
+unnamed: 0,new_analysis,old_analysis,percentage diff
+imperial college london,52.0,52,0.0
+university of bristol,44.0,46,-4.0
+queen mary university of london,34.0,35,-3.0
+university of leeds,30.0,32,-6.0
+university of cambridge,28.0,28,0.0
+university of nottingham,23.0,24,-4.0
+university of glasgow,23.0,24,-4.0
+ucl,22.0,22,0.0
+university of liverpool,22.0,25,-12.0
+university of sheffield,21.0,23,-9.0
+university of birmingham,21.0,22,-5.0
+university of cardiff,20.0,20,0.0
+queen's university belfast,20.0,21,-5.0
+university of edinburgh,16.0,16,0.0
+university of newcastle,15.0,15,0.0
+n/a,,12,
