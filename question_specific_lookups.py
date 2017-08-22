@@ -19,10 +19,11 @@ universities = {
 }
 
 q9 = {
-'yes - self taught using online resources or books':'yes',
-'yes - a taught course, yes - self taught using online resources or books':'yes',
-'yes - a taught course':'yes',
-'yes - self taught using online resources or books, no':'yes'
+'yes - self taught using online resources or books':'self taught',
+'yes - a taught course, yes - self taught using online resources or books':'both self taught and taught course',
+'yes - a taught course':'taught course',
+'yes - self taught using online resources or books, no':'Other',
+'no':'no training'
 }
 
 

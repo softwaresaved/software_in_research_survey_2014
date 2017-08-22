@@ -81,12 +81,15 @@ def create_dict_dfs(location, old):
         # strings to lowercase
         df_current = df_current.apply(lambda x: x.str.lower() if(x.dtype == 'object') else x)
         if old == True: 
-            # Deal with Q9 differences
+            # Deal with Q1 differences
             if current == 'Question 1.csv':
                df_current = clean_by_replacing(df_current, universities)
         elif old == False:
             # Drop the percentage column (only in the new data), because I'm worried it might cause confusion
             df_current.drop('percentage', 1, inplace=True)
+            # Deal with Q9 differences
+            if current == 'Question 9.csv':
+               df_current = clean_by_replacing(df_current, q9)
 
         # Store in dict of dfs
         dict_dfs[current] = df_current
