@@ -86,35 +86,27 @@ def compare_results(dfs_old, dfs_new):
         old_df_join_col = dfs_old[key].columns[0]
         new_df_join_col = dfs_new[key].columns[0]
 
+#        print(old_df_join_col)
+#        print(new_df_join_col)
+
         # Set (by hand) relevant column name in the old data and automatically
         # select it in the new data (the column has "uestion" in it)
         old_data_colname = 'Number'
-        new_data_colname = [col for col in dfs_new[key].columns if 'uestion' in col]
+        new_data_colname = [col for col in dfs_new[key].columns if 'uestion' in col][0]
 
-        # Merge the dataframes by joining where the index is the same in both
+#        print(old_data_colname)
+#        print(new_data_colname)
+
         df_compare = pd.merge(dfs_new[key], dfs_old[key], left_on=new_df_join_col, right_on=old_df_join_col, how='outer')
         # Drop the percentage column, because it's uneeded and could cause confusion
         df_compare.drop('percentage', 1, inplace=True)
-    
-        # Set relevant column name in the old data
-        old_data_colname = 'Number'
-        # Find relevant column name in the new data
-        # The cols for the new data all have a 'question' in them, hence I use that
-        # Note: the colname has to be lowercased to get the match
-        new_data_colname = [col for col in df_compare.columns if 'question' in col.lower()]
 
-
-        # Add a percentage to show the difference in the old and new results
-        try:
-            df_compare['percent_similarity'] = (df_compare[new_data_colname]/df_compare[old_data_colname])
-        except:
-            print('not working')
+        print(df_compare.isnull())
 
         # Store results in dict of dfs
-        dfs_summary_comparison[key] = df_compare
-#        print(dfs_summary_comparison)        
+#        dfs_summary_comparison[key] = df_compare
 
-    return dfs_summary_comparison
+    return
 
 def main():
     """
@@ -126,12 +118,12 @@ def main():
     dfs_new = create_dict_dfs(NEW_RESULTS)
 
     # Compare results
-    dfs_summary_comparison = compare_results(dfs_old, dfs_new)
+    compare_results(dfs_old, dfs_new)
 
     # Save the comparisons to csvs
-    for key in dfs_summary_comparison:
-        filename = key
-        export_to_csv(dfs_summary_comparison[key], STOREFILENAME + 'comparison_summary_csvs/', filename)
+#    for key in dfs_summary_comparison:
+#        filename = key
+#        export_to_csv(dfs_summary_comparison[key], STOREFILENAME + 'comparison_summary_csvs/', filename)
 
 if __name__ == '__main__':
     main()
