@@ -81,6 +81,7 @@ def create_dict_dfs(location, old):
         # Go through the cols and if they're object types, convert the
         # strings to lowercase
         df_current = df_current.apply(lambda x: x.str.lower() if(x.dtype == 'object') else x)
+
         if old == True: 
             # Deal with Q1 differences
             if current == 'Question 1.csv':
@@ -89,7 +90,7 @@ def create_dict_dfs(location, old):
                df_current = clean_by_replacing(df_current, eq1)
 #                df_current[] = df_current.loc[df['unnamed: 0'] == postdoc, 'b'].sum()
 
-        elif old == False:
+        if old == False:
             # Drop the percentage column (only in the new data), because I'm worried it might cause confusion
             df_current.drop('percentage', 1, inplace=True)
             # Deal with Q9 differences
