@@ -5,7 +5,7 @@ import pandas as pd
 import numpy as np
 import csv
 import math
-from lookups/universities_lookup import universities
+from universities_lookup import universities
 
 STOREFILENAME = './output/'
 NEW_RESULTS = './output/summary_csvs/'
