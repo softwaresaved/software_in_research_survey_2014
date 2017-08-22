@@ -1,8 +1,10 @@
 unnamed: 0,new_analysis,old_analysis
 lecturer,93.0,95.0
-postdoctoral researcher,92.0,
-phd student,72.0,
-professor,41.0,
+postdoctoral researcher,92.0,15.0
+postdoctoral researcher,92.0,14.0
+postdoctoral researcher,92.0,51.0
+phd student,72.0,75.0
+professor,41.0,48.0
 research fellow,30.0,49.0
 reader,16.0,19.0
 researcher,4.0,7.0
@@ -14,7 +16,7 @@ principal investigator,2.0,2.0
 instrument scientist,1.0,
 clinical study co-ordinator,1.0,
 research administrator,1.0,
-project manager,1.0,
+project manager,1.0,2.0
 online learning specialist,1.0,
 trial manager,1.0,
 early stage researcher,1.0,
@@ -32,11 +34,5 @@ senior clinical fellow in small animal medicine,1.0,
 director of education,1.0,
 group leader,1.0,
 course director applied health suite,1.0,
-phd,,75.0
-postdoc,,15.0
-prof,,48.0
-research assistant,,14.0
-research associate,,51.0
-manager,,2.0
 not provided,,8.0
 other,,29.0

@@ -8,6 +8,7 @@ import math
 # Get info from lookup files
 from question_specific_lookups import universities
 from question_specific_lookups import q9
+from question_specific_lookups import eq1
 
 STOREFILENAME = './output/'
 NEW_RESULTS = './output/summary_csvs/'
@@ -84,12 +85,19 @@ def create_dict_dfs(location, old):
             # Deal with Q1 differences
             if current == 'Question 1.csv':
                df_current = clean_by_replacing(df_current, universities)
+            if current == 'Extra question 1.csv':
+               df_current = clean_by_replacing(df_current, eq1)
+#                df_current[] = df_current.loc[df['unnamed: 0'] == postdoc, 'b'].sum()
+
         elif old == False:
             # Drop the percentage column (only in the new data), because I'm worried it might cause confusion
             df_current.drop('percentage', 1, inplace=True)
             # Deal with Q9 differences
             if current == 'Question 9.csv':
                df_current = clean_by_replacing(df_current, q9)
+
+
+
 
         # Store in dict of dfs
         dict_dfs[current] = df_current
