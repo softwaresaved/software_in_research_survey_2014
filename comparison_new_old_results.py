@@ -50,7 +50,7 @@ def export_to_csv(df, location, filename):
     :return: nothing, saves a csv
     """
 
-    return df.to_csv(location + filename, index = False)
+    return df.to_csv(location + filename)
 
 
 def create_dict_dfs(location, old):
@@ -88,10 +88,7 @@ def create_dict_dfs(location, old):
                df_current = clean_by_replacing(df_current, universities)
             if current == 'Extra question 1.csv':
                df_current = clean_by_replacing(df_current, eq1)
-
                df_current = df_current.groupby('unnamed: 0').number.sum().reset_index()
-               print(df_current)
-#                df_current[] = df_current.loc[df['unnamed: 0'] == postdoc, 'b'].sum()
 
         if old == False:
             # Drop the percentage column (only in the new data), because I'm worried it might cause confusion
@@ -143,12 +140,34 @@ def compare_results(dfs_old, dfs_new):
         # Make the col names more intuitive
         df_compare.rename(columns = {old_data_colname:'old_analysis', new_data_colname:'new_analysis'}, inplace = True)
 
-        df_compare.set_index(df_compare[df_compare.columns[0]], inplace = True)
+        # Use the first column (called 'unnamed: 0'), which holds the answer options, as the index
+        df_compare.set_index('unnamed: 0', drop = True, inplace = True)
 
         # Store results in dict of dfs
         dfs_summary_comparison[key] = df_compare
 
     return dfs_summary_comparison
+
+
+def totals(dfs_summary_comparison):
+
+    question_list = []
+    new_list = []
+    old_list = []
+
+    for current in LIST_OF_RESULT_NAMES:
+        question_list.append(current[:-4])    
+        new_list.append(int(dfs_summary_comparison[current]['new_analysis'].sum()))
+        old_list.append(int(dfs_summary_comparison[current]['old_analysis'].sum()))
+
+    totals = {'question': question_list, 'new_analysis': new_list, 'old_analysis': old_list}
+
+    df_totals = pd.DataFrame.from_dict(totals)
+    df_totals.set_index('question', drop = True, inplace = True)
+    df_totals['percentage_diff'] = round(100*df_totals['new_analysis']/df_totals['old_analysis'].sum(),0)
+
+    return df_totals
+
 
 def main():
     """
@@ -163,12 +182,17 @@ def main():
 
     # Compare results
     dfs_summary_comparison = compare_results(dfs_old, dfs_new)
-    
-#    print(dfs_summary_comparison)
 
     # Save the comparisons to csvs
     for key in dfs_summary_comparison:
         export_to_csv(dfs_summary_comparison[key], STOREFILENAME + 'comparison_summary_csvs/', key)
+
+    # Get total responses per question and compare
+    df_totals = totals(dfs_summary_comparison)
+
+    # Save totals to csv
+    export_to_csv(df_totals, STOREFILENAME + 'comparison_summary_csvs/', 'responses_per_question.csv')
+
 
 if __name__ == '__main__':
     main()
