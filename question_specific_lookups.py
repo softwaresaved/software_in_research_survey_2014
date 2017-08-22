@@ -18,7 +18,12 @@ universities = {
 'sheffield':'university of sheffield'
 }
 
-
+q9 = {
+'yes - self taught using online resources or books':'yes',
+'yes - a taught course, yes - self taught using online resources or books':'yes',
+'yes - a taught course':'yes',
+'yes - self taught using online resources or books, no':'yes'
+}
 
 
 

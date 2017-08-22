@@ -5,7 +5,9 @@ import pandas as pd
 import numpy as np
 import csv
 import math
-from universities_lookup import universities
+# Get info from lookup files
+from question_specific_lookups import universities
+from question_specific_lookups import q9
 
 STOREFILENAME = './output/'
 NEW_RESULTS = './output/summary_csvs/'
@@ -57,15 +59,15 @@ def create_dict_dfs(location, old):
     :return: a dict of dfs
     """
     
-    def q1_clean(df):
+    def clean_by_replacing(df, dict_replace):
         """
         Replaces the short university name from the old analysis with the
         extended university name use with the new analysis
         :params: a df with short university names, and a dictionary imported from a lookup table
         :return: a df with extended university names
         """
-        for key in universities:
-            df.replace(key, universities[key], inplace=True)
+        for key in dict_replace:
+            df.replace(key, dict_replace[key], inplace=True)
         return df
     
     dict_dfs = {}
@@ -77,12 +79,14 @@ def create_dict_dfs(location, old):
         df_current.columns = [x.lower() for x in df_current.columns]
         # Go through the cols and if they're object types, convert the
         # strings to lowercase
-        for col in df_current:
-            if df_current[col].dtype == object:
-                df_current[col] = df_current[col].astype(str).str.lower()
+        df_current = df_current.apply(lambda x: x.str.lower() if(x.dtype == 'object') else x)
         if old == True: 
+            # Deal with Q9 differences
             if current == 'Question 1.csv':
-               df_current = q1_clean(df_current)
+               df_current = clean_by_replacing(df_current, universities)
+        elif old == False:
+            # Drop the percentage column (only in the new data), because I'm worried it might cause confusion
+            df_current.drop('percentage', 1, inplace=True)
 
         # Store in dict of dfs
         dict_dfs[current] = df_current
@@ -125,11 +129,6 @@ def compare_results(dfs_old, dfs_new):
         df_compare.rename(columns = {old_data_colname:'old_analysis', new_data_colname:'new_analysis'}, inplace = True)
 
         df_compare.set_index(df_compare[df_compare.columns[0]], inplace = True)
-
-        # Drop the percentage column, and I'm worried it might cause confusion
-        df_compare.drop('percentage', 1, inplace=True)
-
-#        print(df_compare.isnull())
 
         # Store results in dict of dfs
         dfs_summary_comparison[key] = df_compare
