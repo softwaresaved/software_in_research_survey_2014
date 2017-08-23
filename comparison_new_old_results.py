@@ -63,10 +63,10 @@ def create_dict_dfs(location, old):
     
     def clean_by_replacing(df, dict_replace):
         """
-        Replaces the short university name from the old analysis with the
-        extended university name use with the new analysis
-        :params: a df with short university names, and a dictionary imported from a lookup table
-        :return: a df with extended university names
+        Replaces the names used in the old analysis with the
+        names used in the new analysis to allow comparison
+        :params: a df using old names, and a dictionary imported from a lookup table
+        :return: a df using new names
         """
         for key in dict_replace:
             df.replace(key, dict_replace[key], inplace=True)
@@ -86,9 +86,12 @@ def create_dict_dfs(location, old):
         if old == True: 
             # Deal with Q1 differences
             if current == 'Question 1.csv':
+               # Call a local function that runs a replace function to change the names
                df_current = clean_by_replacing(df_current, universities_lookup)
             if current == 'Extra question 1.csv':
                df_current = clean_by_replacing(df_current, eq1_lookup)
+               # Because we've replaced multiple old names with the same new one,
+               # we need to sum over the new names to get the total
                df_current = df_current.groupby('unnamed: 0').number.sum().reset_index()
 
         if old == False:
@@ -97,15 +100,13 @@ def create_dict_dfs(location, old):
             # Deal with Q9 differences
             if current == 'Question 4.csv':
                df_current = clean_by_replacing(df_current, q4_lookup)
+               # Because we've replaced multiple old names with the same new one,
+               # we need to sum over the new names to get the total
                df_current = df_current.groupby('unnamed: 0')['question 4: which funder currently provides the majority of your funding'].sum().reset_index()
                df_current.sort_values('question 4: which funder currently provides the majority of your funding', ascending=False, inplace = True)
             if current == 'Question 9.csv':
                df_current = clean_by_replacing(df_current, q9_lookup)
-
-
-
-
-
+               
         # Store in dict of dfs
         dict_dfs[current] = df_current
 
