@@ -1,325 +1,575 @@
-,Question 11: Please provide the name(s) of the main research software you use,percentage
-R,4,1.0
-"SPSS, NVivo",3,1.0
-NVivo,3,1.0
-Matlab,3,1.0
-"NDIPv4 written by ATOS Origin [belongs to NHS Scotl,]",2,1.0
-Spss,2,1.0
-Stata,2,1.0
-"Mathematica, Matlab",2,1.0
-"R, GAMS, cplex, Bash",1,0.0
-"Matlab,Excel,Vensim,Python,Origin,",1,0.0
-"LAMMPS, CASTEP, VASP,My group has written a lot of software that is not available elsewhere",1,0.0
-"SPSS, MLwiN",1,0.0
-"Matlab,Presentation,PsychoPy,SPSS,R,EEGlab,BESA,BESA statistics,SPM,",1,0.0
-"Magma, Go, Sage, Mathematica",1,0.0
-"Ccp4, ccpn",1,0.0
-"MATLAB,SigmaPlot,VectorNTI",1,0.0
-"Have developed my own, which External organisations use.",1,0.0
-"Igor Pro, Matlab, python, C++",1,0.0
-"Origin, Matlab, SigmaPlot, PyMol, Discovery Studio Visualizer",1,0.0
-"stata, graphpad, excel, cardiff teleform",1,0.0
-"Matlab,Microsoft Office,",1,0.0
-"MATLAB, ImageJ, Microsoft Excel",1,0.0
-ROOT,1,0.0
-"VASP, Comsol Multiphysics, Matlab, Scipy & Matplotlib , TeXnicCenter, Qiqqa",1,0.0
-"SPSS,Inspiration , Mindmanager ,Endnote",1,0.0
-"Spss, matlab",1,0.0
-SSPS,1,0.0
-"Excel, R, Access",1,0.0
-"Sage , Mathematica",1,0.0
-"Excel, Minitab, Graphpad Prism, Matlab, SPlus, ImageJ",1,0.0
-"Matlab, MPB, MEEP, Fullwave, B,solve",1,0.0
-"Stata, Matlab",1,0.0
-"python, perl, R, Trinity, samtools, gatK, SOAPdenovo, Newbler, Velvet/Oases, STRUCTURE",1,0.0
-"R, PLINK, FaST-LMM, Merlin, Stata, EMIM, PREMIM, IMPUTE, SNPTEST, SHAPEIT, HaploView, Mendel, Unphased, FBAT",1,0.0
-"Fortran 95 - This is used to develop CFD  codes for my , my researchers work. The codes are developed to solve specific research problems where there are currently no commercial codes available.",1,0.0
-"Microsoft Excel,SketchUp,",1,0.0
-"CPLEX, Gurobi, COIN-OR, LEDA, Matlab, R, LEMON, kidney.optimalmatching.com, toolkit.optimalmatching.com,",1,0.0
-"MATLAB, ANSYS, R",1,0.0
-"R, STATA",1,0.0
-"Eclipse, STARS, Mistress",1,0.0
-"R, Linux code",1,0.0
-"MatLab, OpenSim",1,0.0
-"MATLAB,Origin,MEEP,Labview,Winspec,Microsoft Excel,",1,0.0
-"Atlas.ti, Stata",1,0.0
-"Python, Python , GDAL, Shell scripts, Fortran, C",1,0.0
-"ROOT, self-written code in C++, self-written code in Python, self-written code in CUDA, self-written code in bash, NEUT, GENIE, GEANT4, MySQL, MINUIT, STAN",1,0.0
-"SPSS, NVivo, MS Excel, Chorus Analytics, Qualtrics, Survey Monkey, TweetDeck, Graphviz, NodeXL",1,0.0
-"EndNote, SPSS, STATA, Excel, Bristol Online Surveys, RevMan,",1,0.0
-"Matlab, IDL, LabView",1,0.0
-"matlab, python, graphlab,",1,0.0
+,Question 11: all data 1,percentage
+matlab,89,7.0
+r,71,6.0
+spss,67,5.0
+microsoft excel,57,4.0
+python,47,4.0
+nvivo,29,2.0
+stata,24,2.0
+imagej,21,2.0
+origin,17,1.0
+mathematica,16,1.0
+labview,16,1.0
+fortran,13,1.0
+endnote,11,1.0
+graphpad prism,10,1.0
+latex,9,1.0
+minitab,9,1.0
+prism,9,1.0
+c++,8,1.0
+bash,7,1.0
+c,7,1.0
+mendeley,7,1.0
+idl,7,1.0
+perl,7,1.0
+microsoft word,6,0.0
+gaussian,6,0.0
+root,5,0.0
+sas,5,0.0
+castep,5,0.0
+sigmaplot,5,0.0
+arcgis,5,0.0
+microsoft office,5,0.0
+visual studio,5,0.0
+mestrenova,5,0.0
+samtools,5,0.0
+sage,5,0.0
+abaqus,4,0.0
+maple,4,0.0
+igor pro,4,0.0
+blast,4,0.0
+plink,4,0.0
+mlwin,4,0.0
+qualtrics,4,0.0
+flowjo,3,0.0
+paraview,3,0.0
+vasp,3,0.0
+psychopy,3,0.0
+access,3,0.0
+revman,3,0.0
+genie,3,0.0
+solidworks,3,0.0
+comsol,3,0.0
+octave,3,0.0
+presentation,3,0.0
+volocity,3,0.0
+amos,3,0.0
+pymol,3,0.0
+bristol online survey,3,0.0
+galaxy,3,0.0
+microsoft powerpoint,3,0.0
+gams,3,0.0
+ape,3,0.0
+java,3,0.0
+gnuplot,2,0.0
+javascript,2,0.0
+graphpad,2,0.0
+zotero,2,0.0
+ccp4,2,0.0
+dl_poly,2,0.0
+sketchup,2,0.0
+matplotlib,2,0.0
+gimp,2,0.0
+clc bio genomics workbench,2,0.0
+kingdom,2,0.0
+genstat,2,0.0
+openfoam,2,0.0
+raxml,2,0.0
+mpi,2,0.0
+gatk,2,0.0
+xmgrace,2,0.0
+spm,2,0.0
+photoshop,2,0.0
+vensim,2,0.0
+cytoscape,2,0.0
+eclipse,2,0.0
+winbugs,2,0.0
+cst microwave studio,2,0.0
+lasergene,2,0.0
+gcc,2,0.0
+nwchem,2,0.0
+vectornti,2,0.0
+quantumgis,2,0.0
+gentle,2,0.0
+magma,2,0.0
+meep,2,0.0
+lammps,2,0.0
+qtiplot,2,0.0
+microsoft access,2,0.0
+st,2,0.0
+genepattern,2,0.0
+eprime,2,0.0
+p,2,0.0
+rstudio,2,0.0
+haploview,2,0.0
+answer,2,0.0
+cplex,2,0.0
+omero,2,0.0
+molpro,2,0.0
+mplus,2,0.0
+geant4,2,0.0
+ndipv4,2,0.0
+primer,2,0.0
+collatex,2,0.0
+originpro,2,0.0
+berkeley-madonna,2,0.0
+fenics,2,0.0
+atlas.ti,2,0.0
+qgis,2,0.0
+kaleidagraph,2,0.0
+velvet,2,0.0
+besa,2,0.0
+ansys,2,0.0
+shell scripts,2,0.0
+gsea,2,0.0
+4peaks,1,0.0
+premim,1,0.0
+spike2,1,0.0
+alberta-fem,1,0.0
+abinit,1,0.0
+newbler,1,0.0
+virtual manuscript room,1,0.0
+xlstat,1,0.0
+winlist,1,0.0
+geov,1,0.0
+psyscope,1,0.0
+ipa,1,0.0
+gdma,1,0.0
+netcdf,1,0.0
+discovery studio visualizer,1,0.0
+a plasmid editor,1,0.0
+various analysis,1,0.0
+shell,1,0.0
+adobe acrobat,1,0.0
+crystalpredictor,1,0.0
+html,1,0.0
+fledermaus,1,0.0
+molpak,1,0.0
+bioedit,1,0.0
+parma,1,0.0
+diamond light source control software,1,0.0
+beast,1,0.0
+snopt,1,0.0
+graphlab,1,0.0
+clang,1,0.0
+nu plasma,1,0.0
+oc,1,0.0
+texniccenter,1,0.0
+weka,1,0.0
+meme,1,0.0
+pgplot graphics library,1,0.0
+sbsi,1,0.0
+carsim,1,0.0
+elan,1,0.0
+camcasp,1,0.0
+fiji,1,0.0
+maplesoft,1,0.0
+brain voyager qx,1,0.0
+kinect,1,0.0
+datastream,1,0.0
+diprobase,1,0.0
+unscrambler,1,0.0
+eqs,1,0.0
+autodesk inventor,1,0.0
+grasshopper,1,0.0
+seqmonk,1,0.0
+visualisation system,1,0.0
+mturk,1,0.0
+phyre,1,0.0
+survey monkey,1,0.0
+biomodels,1,0.0
+shapeit,1,0.0
+cbmc,1,0.0
+openmpi,1,0.0
+nodexl,1,0.0
+bwa,1,0.0
+geochem,1,0.0
+ocaml,1,0.0
+artemis,1,0.0
+snap,1,0.0
+dendroscope,1,0.0
+collate,1,0.0
+eeglab,1,0.0
+ngs data,1,0.0
+solve,1,0.0
+mutsig,1,0.0
+cuda,1,0.0
+fast-lmm,1,0.0
+control desk,1,0.0
+maxqda,1,0.0
+altium,1,0.0
+mongodb,1,0.0
+pgi,1,0.0
+arcmap,1,0.0
+ccp4 suite,1,0.0
+stattransfer,1,0.0
+opensim,1,0.0
+justbio,1,0.0
+feedly,1,0.0
+phenix,1,0.0
+ibm statistics analysis,1,0.0
+mindmanager,1,0.0
+doflin-adjoint,1,0.0
+simpack,1,0.0
+ies-ve,1,0.0
+connectivity map,1,0.0
+equipop,1,0.0
+odbc database,1,0.0
+fbat,1,0.0
+clustal at ncbi,1,0.0
+nemrodw,1,0.0
+cesm,1,0.0
+rmcprofile,1,0.0
+illumina genomestudio,1,0.0
+intrgrated genomics viewer,1,0.0
+fasttree,1,0.0
+bioconductor,1,0.0
+oxmetrics,1,0.0
+l-edit,1,0.0
+bloomberg,1,0.0
+cst,1,0.0
+go,1,0.0
+openrefine,1,0.0
+lidar,1,0.0
+nco,1,0.0
+spinworks nmr,1,0.0
+image pro plus,1,0.0
+comsol multiphysics,1,0.0
+mpb,1,0.0
+pyroot,1,0.0
+illustrator,1,0.0
+sap2011,1,0.0
+coot,1,0.0
+canvas,1,0.0
+visualisation tools,1,0.0
+firedrake,1,0.0
+crystals,1,0.0
+fonts,1,0.0
+msc-adams,1,0.0
+flex,1,0.0
+veda-fe,1,0.0
+layoutbeamer,1,0.0
+rest2009,1,0.0
+libreoffice calc,1,0.0
+geosegregationanalyser,1,0.0
+pasw/spss,1,0.0
+coin-or,1,0.0
+national instruments labview,1,0.0
+integrated genomics viewer,1,0.0
+celldesigner,1,0.0
+adobe suite,1,0.0
+mesquite,1,0.0
+including ferret,1,0.0
+cardiff teleform,1,0.0
+code composer studio,1,0.0
+cosa,1,0.0
+aracne,1,0.0
+box models.,1,0.0
+petromod,1,0.0
+snptest,1,0.0
+mctdh,1,0.0
+more4abm,1,0.0
+chem station,1,0.0
+caris,1,0.0
+ls dyna,1,0.0
+ghostscript,1,0.0
+onetep,1,0.0
+stanfordnlp,1,0.0
+asp.net,1,0.0
+sql,1,0.0
+osirix,1,0.0
+syngene genetools,1,0.0
+leica lite,1,0.0
+ascent,1,0.0
+mg,1,0.0
+chorus analytics,1,0.0
+rnaseq software,1,0.0
+gdc,1,0.0
+freesurfer,1,0.0
+mantid,1,0.0
+objectpascal,1,0.0
+cubempi,1,0.0
+tinnr,1,0.0
+uk met office unified model,1,0.0
+refman,1,0.0
+adobe photoshop,1,0.0
+kidney.optimalmatching.com,1,0.0
+opus,1,0.0
+gromacs,1,0.0
+qiqqa,1,0.0
+splus,1,0.0
+diurnal,1,0.0
+lisp,1,0.0
+gephi,1,0.0
+smalt,1,0.0
+awk,1,0.0
+jws online,1,0.0
+structure,1,0.0
+adol-c,1,0.0
+cmap,1,0.0
+opentidalfarm,1,0.0
+grams,1,0.0
+winspec,1,0.0
+impute,1,0.0
+banxia,1,0.0
+licor software,1,0.0
+diva,1,0.0
+ambertools,1,0.0
+many others,1,0.0
+haskell,1,0.0
+emim,1,0.0
+statgraphs,1,0.0
+leica af,1,0.0
+for gcmc simulations,1,0.0
+imaris,1,0.0
+c#,1,0.0
+lemon,1,0.0
+arduino ide,1,0.0
+hydra,1,0.0
+gummi,1,0.0
+hypermesh,1,0.0
+evernote,1,0.0
+recpack,1,0.0
+chemdraw ultra,1,0.0
+graphviz,1,0.0
+ferret,1,0.0
+thermal,1,0.0
+rokdoc,1,0.0
+dmacrys,1,0.0
+jenkins,1,0.0
+clewin,1,0.0
+dna sequence analysis software,1,0.0
+image analysis,1,0.0
+sequenceserver,1,0.0
+copasi,1,0.0
+minuit,1,0.0
+tao,1,0.0
+stars,1,0.0
+mcm mapper,1,0.0
+seisworks,1,0.0
+biodare,1,0.0
+heidelberg mctdh package,1,0.0
+multisim,1,0.0
+linux,1,0.0
+marvin,1,0.0
+agilen ads,1,0.0
+routing,1,0.0
+knime,1,0.0
+david,1,0.0
+text processing software,1,0.0
+leica lf af,1,0.0
+workspace,1,0.0
+simple pci,1,0.0
+materials studio,1,0.0
+aramine,1,0.0
+olex2,1,0.0
+xfdtd,1,0.0
+tapenade,1,0.0
+bluehill,1,0.0
+ccpn,1,0.0
+filezilla,1,0.0
+chemdraw,1,0.0
 n/a,1,0.0
-"QuantumEspresso, VASP, NWChem, GPAW, Amber, GMIN .",1,0.0
-"Bespoke internal software such as VFP,Commercial software in beta phase such as Kinect SDK's etc,St,ard tools such as Matlab, Visual Studio etc",1,0.0
-"NVivo,",1,0.0
-"Mendely, Qualtrics, MPlus, SPSS,",1,0.0
-"MATLAB, OriginPro",1,0.0
-"python, matlab, R, sage, ...",1,0.0
-"BEAST, BAPS, RAxML, FastTree, BLAST, Artemis, Dendroscope, Path-O-Gen, R, Velvet, SMALT, SAMtools, MUSCLE",1,0.0
-"Open Exchange, written by myself",1,0.0
-"SPSS, Bristol Online Survey, Excel",1,0.0
-"oXygen,XML",1,0.0
-"Microsoft Office Excel ,Matlab,SPSS,",1,0.0
-"Prism,Lasergene",1,0.0
-"Volocity, Image J, Licor software",1,0.0
-"Chemdraw ultra,mestrenova,Olex2,Knowitall,Mercury,Crystals,AgilentChem station,Topas,Gudrun,endnote,mendley",1,0.0
-"Graphpad prism, CLC bio genomics workbench, GenTle, DNAstar Lasergene",1,0.0
-"IDL, python",1,0.0
-"FlowJo, EnzymeX, Primer3, ApE, BLAST, ImageJ.",1,0.0
-"SAS, Excel, NQuery, Minitab",1,0.0
-"National Instruments LabVIEW, Python, LaTeX, Origin",1,0.0
-"Matlab, Maple, Python, TAO, PETSCI, MPI, C, Fortran",1,0.0
-"SPSS,NVivo",1,0.0
-"Firedrake,PyOP2,FEniCS,PETSc,Numpy,",1,0.0
-"collateX, everything else developed in house",1,0.0
-"GARAND, XmGrace, Paraview,Assimptote,Python",1,0.0
-"LabView, Origin,",1,0.0
-"R, VBA, algorithms written in a range of coding languages",1,0.0
-"matlab, stata, R, fortran, excel",1,0.0
-"OPUS, Microsoft office 2010, Mathlab",1,0.0
-NVIVO,1,0.0
-"Fortran, Python, IDL, Mayavi, Paraview",1,0.0
-"matlab, octave, gnumeric sometimes, ,I am not including any electronics design software, programming,... I have maybe interpreted too tightly your definition, in as much as all the microcontroller we use, or labview, or other software which may control a data acquisition card, are used to generate data.  So I limited myself to analysing , generating the  data.",1,0.0
-"Microsoft Excel, Access,SQL,ODBC database",1,0.0
-Latex,1,0.0
-"NONMEM,Berkley Madonna,WinBUGS,PoPED,",1,0.0
-"IGOR Pro, Origin, Matlab, Proprietary spectroscopy software, Latex",1,0.0
-"R, Eclipse, St, Visualisation System,",1,0.0
-"Matlab,GP/pari",1,0.0
-"LabView, Matlab, Origin, CryoMeas",1,0.0
-Python,1,0.0
-"Mestranova,Excel",1,0.0
-"SPSS, excel",1,0.0
-"GNSS processing,Image Analysis,LIDAR,IR,Thermal",1,0.0
-"Nu Plasma MC-ICP-MS propriety software, Python scripts written by myself including matplotlip/numpy/scipy, occasional Octave, occasional QuantumGIS",1,0.0
-"CBMC, various shell/Perl scripts, Jenkins",1,0.0
-"Arc-gis, fledermaus, Kingdom, promax, petromod, rokdoc, seisworks,As many in-house codes",1,0.0
-"MatLab, FSL, SPSS, STATA",1,0.0
-"HORACE, MANTID,GENIE",1,0.0
-"I develop my own software. My research in on computer vision, therefore it involves designing algorithms , implementing them to assess their performance.",1,0.0
-Nemrodw,1,0.0
-"matlab, gummi, latex, python",1,0.0
-"Tecplot, Paraview, Ansys,Write codes in Fortran , Matlab,",1,0.0
-"Stata, R, Emacs, Sed, Awk, Mathematica",1,0.0
-"ABAQUS,Intel FORTRAN,MATLAB",1,0.0
-"Matlab, Mathematica, Maple, Gephi",1,0.0
-"GDC, GCC, Clang, Python, Matplotlib",1,0.0
-"IBM SPSS, AMOS, EQS, LIVECODE",1,0.0
-"SPSS, R, Qualtrics",1,0.0
-Mathematica,1,0.0
-"geant4, recpack, maus",1,0.0
-"Python, Fortran, Sage, IDL",1,0.0
-python,1,0.0
-"Stata, StatTransfer, sometimes SAS or R",1,0.0
-"ONETEP, CASTEP",1,0.0
-"SPSS,",1,0.0
-"ENVI-met, IES-VE, Statistical Package:R",1,0.0
-"NVivo, SPSS",1,0.0
-"Thesaurus Linguae Graecae, SolidWorks",1,0.0
-"HyperMesh, LS Dyna, MS based",1,0.0
-"FLEx, praat",1,0.0
-"R, Matlab, QGIS, Processing, Java, javascript, HTML, CSS",1,0.0
-"java, python, R, STATA, SPSS, bash, OpenRefine,",1,0.0
-"VEDA, ANSWER, Excel, SPSS, MCM Mapper, Plot Digitizer, NVivo",1,0.0
-"DMACRYS, CrystalPredictor, CrystalOptimizer, GAUSSIAN, MOLPAK, GDMA, Cambridge Crystallographic Data Centre programs, CASTEP, CamCASP, GULP, Marvin",1,0.0
-"SPSS,Bespoke experimental packages",1,0.0
-"Graphpad Prism, Genespring, Photoshop, Endnote,",1,0.0
-"Evernote, Feedly",1,0.0
-"SPSS,R",1,0.0
-"Microsoft Access, Microsoft Excel, SPSS, OriginLab",1,0.0
-"Visual Basic, R",1,0.0
-"R for data analysis. The remaining software comprises assorted programs I wrote in Python , C, mostly un-named.",1,0.0
-"The statistical language R, its contributed packages, , software in R that I have written myself.",1,0.0
-"SPSS, Qualtrics, ,",1,0.0
-"COSA, OPENFOAM",1,0.0
-"Nvivo, SPSS",1,0.0
-"MATLAB,LabView,Arduino IDE, C++,python",1,0.0
-"spss, R, genstat, minitab",1,0.0
-"Matlab,Mathematica,xmgrace",1,0.0
-"SPSS, Statgraphs, Origin, Excel, Geochem",1,0.0
-"MATLAB, CST Microwave Studio, AWR Microwave Office, XFDTD",1,0.0
-"Matlab,Plastimatch,Many others",1,0.0
-"GAP - Groups Algorithms Programming,Haskell various research versions: Eden GpH ,",1,0.0
-"R,gcc",1,0.0
-"NVivo, SPSS, SNAP",1,0.0
-"Microsoft office, SPSS, stata, Matlab, R, Prism,",1,0.0
-"Labview, SPSS, Matlab",1,0.0
-"python, numpy, heidelberg mctdh package, mathematica",1,0.0
-"NVivo,SPSS,Excel,",1,0.0
-"R,Matlab,Cytoscape,GSEA,ARACNE,",1,0.0
-"Matlab,Labview,Control Desk ,Maple,",1,0.0
-"SPSS ,Mendelay",1,0.0
-"alberta-fem, see http://www.alberta-fem.de/",1,0.0
-"MATLAB, microsoft excel",1,0.0
-"GraphPad Prism, Adobe Illustrator, WinList, Rotorgene 6, Microsoft Excel, ApE, FACS Diva, Adobe Photoshop, Rest2009",1,0.0
-"Matlab, LabVIEW, Excel, ImageJ, own-developed Fortran",1,0.0
-"Matlab, SPSS, Excel",1,0.0
-"Endnote, NVivo, SPSS, R .",1,0.0
-"NVIVO, zotero",1,0.0
-"MEDcalc, IPA, David, SPSS, Galaxy, SAM, R,",1,0.0
-"Mathworks, Maplesoft",1,0.0
-"Labview, Origin, Kaleida Graph, Igor",1,0.0
-"LAMMPS, VMD, AmberTools, Packmol, Gromacs, Grace,",1,0.0
-"Simple PCI, Graphpad Prism, Abi PRISM 7700",1,0.0
-"Egret, MLWin, SPSS",1,0.0
-"Micorsoft Office ,SPSS,Graphpad Prism",1,0.0
-"Mainly online resources for the analysis of DNA/RNA sequences, protein structural analysis, search engines, RNA folding predictions, statistic packages etc",1,0.0
-"MCTDH , Gaussian, Molpro, WebMO",1,0.0
-"Stata, Oxmetrics",1,0.0
-"magma, sage",1,0.0
-"Bloomberg, Datastream, Factiva",1,0.0
-"ImageJ, Metamorph, Matlab, COPASI, SBSI, BioDare, MapQTL, ,Online data , analysis sources: WoK, PubMed, TAIR, AraMine, DIURNAL, Biomodels, JWS Online,",1,0.0
-"Excel, XLSTAT, Grams, Unscrambler, R, Origin, SPSS",1,0.0
-TexGen,1,0.0
-"C#, Visual Studio, Asp.net, Excel, MongoDB, SQLServer",1,0.0
-"NVivo, RefMan, RevMan, Endnote, STATA, Microsoft Access",1,0.0
-"RMCprofile, DL_POLY, CASTEP, gnuplot",1,0.0
-"ImageJ, InSite",1,0.0
-"Origin, L-Edit, LayoutBeamer, Penelope",1,0.0
-"SPSS, QSR NVivo",1,0.0
-"python, numpy, matplotlib, scipy, scikit-learn, p,as, ipython, p,oc",1,0.0
-"PAST hammer, ArcGIS",1,0.0
-"R, Python, Matlab, IDL, QGIS",1,0.0
-"CCP4 Suite, Global Phasing, GDA  & TrayMaker",1,0.0
-"LaTeX, R, Python/SAGE, PARI",1,0.0
-"Stata, R, Mathematica, SAS, winbugs, mlwin",1,0.0
-"Matlab, Python, Ocaml, shell scripts",1,0.0
-"Excel, STATA, LaTeX",1,0.0
-"Visual Studio,Matlab,Autodesk Inventor",1,0.0
-"R, SPSS, Excel, MATLAB, ArcMap, MestreNova",1,0.0
-MaxQDA,1,0.0
-"MathCad, CST Microwave Studio, Agilen ADS, MultiSim",1,0.0
-"VEDA-FE,VEDA-BE,ANSWER,GAMS,Excel",1,0.0
-"Enthought Canopy ,XCode",1,0.0
-"Matlab, Abaqus, Python",1,0.0
-"ROOT , pyroot, mathematica, own software in C++ , python",1,0.0
-"I used Bento from Filemaker , I'm now flailing around looking for an alternative since it was withdrawn.",1,0.0
-Nvivo,1,0.0
-"Rhinoceros 5,Grasshopper,DIVA,Adobe suite",1,0.0
-"Endnote, STATA",1,0.0
-"Blast , Clustal at NCBI",1,0.0
-"ArcGIS, SPSS",1,0.0
-"Multiple for analysis of GWAS , NGS data",1,0.0
-"UK Met Office Unified Model , bespoke processing , analysis scripts , various analysis , visualisation tools, including ferret, MATLAB, panoply, nco, cdo etc.",1,0.0
-"Multiple self-written scripts in R , Perl,RNASeq software ,Various programs from GenePattern suite,GSEA , MutSig,Connectivity Map,DALI,Phyre,Rosetta,Multiple others",1,0.0
-"matlab, omero, imageJ, prism",1,0.0
-"SPSS, Volocity, Excel, ImageJ, FLIR Thermal Imaging,",1,0.0
-"CST, Code Composer Studio, MATLAB, C, SOlidWorks, Clewin, Excel",1,0.0
-"text processing software, visualization software, I write my own codes to run simulations , some are freely available on the web.",1,0.0
-SPSS,1,0.0
-"Matlab, ArcGIS, Minitab, GlobalMapper, GoogleEarth, Caris, The Kingdom Software",1,0.0
-"R, Python, LaTeX",1,0.0
-"Lucence, Weka, rdf3x, MTurk, StanfordNLP",1,0.0
-"Cape-Open Flowsheeting Environment ,Berkeley-Madonna,Gaussian,Pymol,Sketchup,Labview,Python 3,MestraNova,Chem Station,ChemDraw,Origin,MS Excel,MS Word,MS Powerpoint,",1,0.0
-"SPSS, Amos, NVivo, Excel.",1,0.0
-"R, RStudio, Excel,",1,0.0
-"SPSS, AMOS, Vensim, Banxia, nVivo",1,0.0
-",",1,0.0
-"Matlab, Igor Pro, Maple, Comsol, SolidWorks, Altium, Python, C/C++",1,0.0
-"Petrel, Kingdom Suite, IRAP-RMS, Passage, ImageJ, Fraclac, Excel",1,0.0
-"R, CRAFTY, Repast Simphony, QuantumGIS, SPSS, MoRe4ABM, ParMa",1,0.0
-"Matlab, PASW/SPSS, STATA, nVivo",1,0.0
-"CLC Main,Flowjo,ImageJ,",1,0.0
-"Image Pro Plus, Lasergene, Gentle, Image J, R, Bioconductor, SeqMonk, IGV genome browser, galaxy, OMERO, perl express, tinnR,cygwin, cytoscape, knime, photoshop, illustrator, MS office, open office",1,0.0
-"EPrime, PsyScope, SPSS, R, Psychopy, OpenSesame",1,0.0
-"Fenics, doflin-adjoint, OpenTidalFarm",1,0.0
-"R, C++, my own software written in R or C++",1,0.0
-"Earth system model I mostly wrote. Other global environmental models . Myriad scripts , box models.",1,0.0
-"Excel, R, Image J, IrfanView, Bowtie, Integrated Genome Browser, Java Tree View, SAM Tools, Cluster 3,  DiProBase, UCSF Chimera, MEME, custom Perl/Shell/Python scripts",1,0.0
-"Plato, Abinit, Gaussian",1,0.0
-"Matlab, SPSS",1,0.0
-"Origin,Matlab,Python",1,0.0
-"R,SPSS",1,0.0
-"Abaqus, Matlab/Simulink, Simpack, MSC-ADAMS, CarSim",1,0.0
-"Microsoft Excel,OriginLab,Spectrum,Bluehill",1,0.0
-"Excel, Access, Graphpad, SPSS, Plink, Whatever my statistician tells me!!",1,0.0
-"MS Words, MS Excel, MS Power Point, MS Outlook, Google search engine, Adobe acrobat, SPSS, Mendeley,",1,0.0
-"ROOT, Mathematica, Matlab, Latex, Comsol, Labview",1,0.0
-"Prism, Canvas, Word, Volocity, Leica AF",1,0.0
-"intel, pgi, netcdf, fortran, openmpi,MPI,grads,ferret, idl,etc, CESM,geov",1,0.0
-"gpde, mgopt, hydra, openfoam, tapenade, dco, adol-c, hypre, trilinos, snopt",1,0.0
-"Mathematica, R,",1,0.0
-"Matlab,ObjectPascal, FreeSurfer. MS-Excel/LibreOffice-Calc",1,0.0
-"Too numerous to list,",1,0.0
-"Mostly privately developed software written by the research community.,Usually in C++ using freely available compilers.,Some commercial support software tools .",1,0.0
-"SPSS,Sigmaplot,Primer 6+ ,R,Excel,",1,0.0
-"origin, kaleidograph, sansview, athena , various in-house python routines, imageJ",1,0.0
-stata,1,0.0
-"Papers3, R, TNT, MrBayes, RAxML, Mesquite.",1,0.0
-"R, Self-built models in GAMS Java , Python",1,0.0
-"IBM Statistics analysis ,NVivo qualitative data analysis",1,0.0
-"VectorNTI, CLC Genomics Workbench, GenePattern, BioEdit, HTSeq, Intrgrated Genomics Viewer , MEGA phylogenetics software.,",1,0.0
-"SPSS, MatLab, Eprime",1,0.0
-"Materials Studio, , home-made software: Music , Raspa, for GCMC simulations",1,0.0
-"Minitab, Sigmaplot, Matlab, Microsoft Excel, Endnote, Gimp/Adobe Photoshop",1,0.0
-"In Cell Investigator,ImageJ,GraphPad Prism,Microsoft Excell",1,0.0
-"Visual Studio c++,Ghostscript, Ghostview,Excel,Word",1,0.0
-"Matlab , IDL.,Excel is used for making quick graphs from data tables but not for publishable figures",1,0.0
-Atlas.ti,1,0.0
-"R for statistical analysis, varbrule , javascript / Ruby scripts for experiments.",1,0.0
-mathematica,1,0.0
-"Syngene Genetools, Ascent for Multiskan Ascent, Software to run a nanodrop, ImageJ, Microsoft Excel,",1,0.0
-"excel, SPSS, MLwIN, Nvivo",1,0.0
-"Igor Pro, Labview",1,0.0
-"Sigmaplot,Matlab,Minitab",1,0.0
-"R, Galaxy, Plink, Plink-Seq, IGV, Sam tools, GATK, Haploview",1,0.0
-"MPlus,Superlab ,SPSS,Excel",1,0.0
-"QuB , GraphPad Prism, 4Peaks, Leica Lite, Maxchelator, JustBio",1,0.0
-Datadesk,1,0.0
-"MestReNova, R, Prism, many proprietary softwares for individual analytical instruments",1,0.0
-"FIJI, A plasmid editor.",1,0.0
-"imageJ, excel,",1,0.0
-"Matlab, Auto, Fortran",1,0.0
-"SAS,R,Stata,",1,0.0
-"GenSAT,Leica LF AF,IMARIS",1,0.0
-"Statistical Parametric Mapping ,MatLab,LabView,Python,Presentation,",1,0.0
-"SPSS, Endnote",1,0.0
-"Nvivo,",1,0.0
-"libAtoms/QUIP , CASTEP , molpro",1,0.0
-"python, java, matlab, octave, lisp",1,0.0
-"SPSS,R,Minitab,G-Power,Xcalibur,ChromQuest,Windiets,",1,0.0
-"dedoose, nvivo",1,0.0
-"Matlab,Brain Voyager QX",1,0.0
-"ImageJ, Osirix , various PACS systems, custom code in MATLAB",1,0.0
-"Python, MatLab, Mathematica, COMSOL,",1,0.0
-"Chemical modelling / drawing  software:,Gaussian,Chem Office,Accelyrs Draw,Spinworks NMR,instrument specific software for driving various spectrometers / processing data as well.",1,0.0
-"Matlab, OriginPro, Labview, QTIplot, Excel.",1,0.0
-"Sequenceserver, blast, bwa, R,",1,0.0
-"Computayional chemistry software: DL_POLY, CP2K, Gaussian, NWChem,Programming languages: Fortran, Perl, bash scripting",1,0.0
-"GraphPad Prism, Serial Cloner, Mathematica",1,0.0
-"R, locally designed video coding software, CLAN, ELAN",1,0.0
-"Collate, Anastasia, CollateX, Workspace for Collaborative Editing, Virtual Manuscript Room",1,0.0
-"Genstat, RStudio, Minitab, MatLab, GIMP, Zotero, Endnote, SAP2011, FileZilla, GNUPlot, QtiPlot, SPSS, Spike2",1,0.0
-"SAS, STATA, SPSS, R, MapInfo, ArcGIS, Python",1,0.0
-DNA sequence analysis software,1,0.0
-"r, spss, xl, SPM, matlab",1,0.0
-"SPSS, R, LabView",1,0.0
-"Mendeley, EndNote, Sente, Microsoft Word, Excel, Powerpoint, Latex,",1,0.0
-"Abaqus, FORTRAN, MATLAB, Excel",1,0.0
-"Excel, Prism, ImageJ, Flow Jo",1,0.0
-"I forget the name - it was to do with a funding application in which I was co-applicant , I was promised training - to do with text analysis , fonts",1,0.0
-MATLAB,1,0.0
-"R,Presentation ,Python,Psychopy,bash",1,0.0
-"Illumina GenomeStudio,PLINK,R,IMPUTE2",1,0.0
-"Excel,SPSS,nVIVO,RevMan/Review Manager",1,0.0
-"Propietary software at Leeds: MG, CUBEMPI, spectral MHD codes.",1,0.0
-"R, Geany, C, C++, LibreOffice Calc",1,0.0
-"CCP4, Phenix, Diamond Light Source control software, COOT, PyMol, Prism",1,0.0
-"R, samtools, MEGA,",1,0.0
-"PRISM, NuSMV",1,0.0
-"Excel, R, Mendeley, Word, GitHub.",1,0.0
-"NVivo, Cmap",1,0.0
-"Bash/Python scripting,Timing-driven Versatile Placement , Routing",1,0.0
-"Matlab, Minitab, Origin, Excel, Creo, GraphPad Prism, ImageJ, PCR machine software, western blot reader software.",1,0.0
-Ansys APDL .,1,0.0
-"SAS Institute JMP,Matlab,Various bespoke software for aircraft design synthesis",1,0.0
-"Stata,R",1,0.0
-"SPSS,GeoSegregationAnalyser,ArcInfo,Equipop",1,0.0
-"self-written software coded in C , R,PGPLOT graphics library,Gnu scientific library,Python, shell , Perl scripts",1,0.0
-"Fortran 77-90, Matlab, GMT",1,0.0
-"C++, Python, ROOT, Bash",1,0.0
-"prism,matlab,aPE ,CellDesigner,ImageJ",1,0.0
-"Antconc, excel, r, Bristol online survey",1,0.0
-"openCossan,Matlab,",1,0.0
-"MATLAB, Visual Studio",1,0.0
+dali,1,0.0
+igv genome browser,1,0.0
+tecplot,1,0.0
+webmo,1,0.0
+facs diva,1,0.0
+veda-be,1,0.0
+merlin,1,0.0
+css,1,0.0
+xcode,1,0.0
+tnt,1,0.0
+awr microwave office,1,0.0
+sqlserver,1,0.0
+raspa,1,0.0
+antconc,1,0.0
+path-o-gen,1,0.0
+mercury,1,0.0
+sed,1,0.0
+insite,1,0.0
+plastimatch,1,0.0
+mega,1,0.0
+grads,1,0.0
+mapinfo,1,0.0
+mapqtl,1,0.0
+athena,1,0.0
+enzymex,1,0.0
+cp2k,1,0.0
+emacs,1,0.0
+pari,1,0.0
+mathworks,1,0.0
+ucsf chimera,1,0.0
+cluster 3,1,0.0
+datadesk,1,0.0
+protein structural analysis,1,0.0
+spectrum,1,0.0
+livecode,1,0.0
+microsoft outlook,1,0.0
+intel fortran,1,0.0
+gurobi,1,0.0
+cape-open flowsheeting environment,1,0.0
+gdal,1,0.0
+opencossan,1,0.0
+spectral mhd codes.,1,0.0
+b,1,0.0
+vfp,1,0.0
+bowtie,1,0.0
+kingdom suite,1,0.0
+clan,1,0.0
+abi prism 7700,1,0.0
+ir,1,0.0
+xcalibur,1,0.0
+search engines,1,0.0
+plink-seq,1,0.0
+visualization software,1,0.0
+accelyrs draw,1,0.0
+ansys apdl .,1,0.0
+pyop2,1,0.0
+mgopt,1,0.0
+nonmem,1,0.0
+maxchelator,1,0.0
+scikit-learn,1,0.0
+rotorgene 6,1,0.0
+impute2,1,0.0
+past hammer,1,0.0
+egret,1,0.0
+passage,1,0.0
+genespring,1,0.0
+gwas,1,0.0
+ghostview,1,0.0
+poped,1,0.0
+gmin,1,0.0
+gda,1,0.0
+google,1,0.0
+serial cloner,1,0.0
+rosetta,1,0.0
+gpde,1,0.0
+dnastar lasergene,1,0.0
+github,1,0.0
+bespoke processing,1,0.0
+panoply,1,0.0
+fraclac,1,0.0
+rhinoceros 5,1,0.0
+neut,1,0.0
+flir thermal imaging,1,0.0
+grace,1,0.0
+factiva,1,0.0
+muscle,1,0.0
+pubmed,1,0.0
+topas,1,0.0
+sente,1,0.0
+fsl,1,0.0
+agilentchem station,1,0.0
+sas institute jmp,1,0.0
+igor,1,0.0
+baps,1,0.0
+maus,1,0.0
+java tree view,1,0.0
+promax,1,0.0
+garand,1,0.0
+tweetdeck,1,0.0
+gensat,1,0.0
+amber,1,0.0
+unphased,1,0.0
+irfanview,1,0.0
+plot digitizer,1,0.0
+cdo etc.,1,0.0
+rdf3x,1,0.0
+cryomeas,1,0.0
+enthought canopy,1,0.0
+texgen,1,0.0
+igv,1,0.0
+gulp,1,0.0
+packmol,1,0.0
+clc main,1,0.0
+gp/pari,1,0.0
+gnumeric,1,0.0
+petsc,1,0.0
+qub,1,0.0
+cambridge crystallographic data centre programs,1,0.0
+intel,1,0.0
+chem office,1,0.0
+mistress,1,0.0
+western blot reader software,1,0.0
+knowitall,1,0.0
+anastasia,1,0.0
+toolkit.optimalmatching.com,1,0.0
+htseq,1,0.0
+xml,1,0.0
+trilinos,1,0.0
+envi-met,1,0.0
+pacs systems,1,0.0
+metamorph,1,0.0
+plato,1,0.0
+dedoose,1,0.0
+lucence,1,0.0
+crafty,1,0.0
+vmd,1,0.0
+arcinfo,1,0.0
+wok,1,0.0
+varbrule,1,0.0
+gmt,1,0.0
+gnu scientific library,1,0.0
+chromquest,1,0.0
+papers3,1,0.0
+open office,1,0.0
+linguae graecae,1,0.0
+stan,1,0.0
+petsci,1,0.0
+medcalc,1,0.0
+fullwave,1,0.0
+gap,1,0.0
+sam,1,0.0
+gpaw,1,0.0
+windiets,1,0.0
+trinity,1,0.0
+horace,1,0.0
+auto,1,0.0
+mathcad,1,0.0
+etc,1,0.0
+veda,1,0.0
+vba,1,0.0
+analysis scripts,1,0.0
+gnss processing,1,0.0
+nusmv,1,0.0
+repast simphony,1,0.0
+inspiration,1,0.0
+global phasing,1,0.0
+nquery,1,0.0
+petrel,1,0.0
+statistical parametric mapping,1,0.0
+rna folding predictions,1,0.0
+hypre,1,0.0
+sansview,1,0.0
+soapdenovo,1,0.0
+pcr machine software,1,0.0
+dco,1,0.0
+g-power,1,0.0
+gudrun,1,0.0
+mega phylogenetics software,1,0.0
+adobe illustrator,1,0.0
+oxygen,1,0.0
+praat,1,0.0
+mysql,1,0.0
+penelope,1,0.0
+mrbayes,1,0.0
+cygwin,1,0.0
+mayavi,1,0.0
+libatoms,1,0.0
+in cell investigator,1,0.0
+online data,1,0.0
+superlab,1,0.0
+irap-rms,1,0.0
+leda,1,0.0
+creo,1,0.0
+opensesame,1,0.0
+tair,1,0.0
+crystaloptimizer,1,0.0
+bento,1,0.0
+google earth,1,0.0
+globalmapper,1,0.0
+visual basic,1,0.0
+assimptote,1,0.0
+open exchange,1,0.0
+quantumespresso,1,0.0
