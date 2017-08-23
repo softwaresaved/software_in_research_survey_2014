@@ -6,9 +6,10 @@ import numpy as np
 import csv
 import math
 # Get info from lookup files
-from question_specific_lookups import universities
-from question_specific_lookups import q9
-from question_specific_lookups import eq1
+from question_specific_lookups import universities_lookup
+from question_specific_lookups import q4_lookup
+from question_specific_lookups import q9_lookup
+from question_specific_lookups import eq1_lookup
 
 STOREFILENAME = './output/'
 NEW_RESULTS = './output/summary_csvs/'
@@ -85,17 +86,22 @@ def create_dict_dfs(location, old):
         if old == True: 
             # Deal with Q1 differences
             if current == 'Question 1.csv':
-               df_current = clean_by_replacing(df_current, universities)
+               df_current = clean_by_replacing(df_current, universities_lookup)
             if current == 'Extra question 1.csv':
-               df_current = clean_by_replacing(df_current, eq1)
+               df_current = clean_by_replacing(df_current, eq1_lookup)
                df_current = df_current.groupby('unnamed: 0').number.sum().reset_index()
 
         if old == False:
             # Drop the percentage column (only in the new data), because I'm worried it might cause confusion
             df_current.drop('percentage', 1, inplace=True)
             # Deal with Q9 differences
+            if current == 'Question 4.csv':
+               df_current = clean_by_replacing(df_current, q4_lookup)
+               df_current = df_current.groupby('unnamed: 0')['question 4: which funder currently provides the majority of your funding'].sum().reset_index()
+               df_current.sort_values('question 4: which funder currently provides the majority of your funding', ascending=False, inplace = True)
             if current == 'Question 9.csv':
-               df_current = clean_by_replacing(df_current, q9)
+               df_current = clean_by_replacing(df_current, q9_lookup)
+
 
 
 

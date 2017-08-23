@@ -1,11 +1,7 @@
 unnamed: 0,new_analysis,old_analysis,new_analysis_percentage,old_analysis_percentage,new_minus_old_percentage
-microsoft windows,176.0,189.0,45.0,45.0,0.0
-mac os x,93.0,99.0,24.0,24.0,0.0
-linux,76.0,81.0,20.0,19.0,1.0
-don't have a preference,39.0,41.0,10.0,10.0,0.0
-i prefer windows and unix,1.0,,0.0,,
-dos or zx spectrum,1.0,,0.0,,
-vms,1.0,,0.0,,
-unix,1.0,,0.0,,
-no response,,3.0,,1.0,
-other,,4.0,,1.0,
+microsoft windows,176,189,45.0,45.0,0.0
+mac os x,93,99,24.0,24.0,0.0
+linux,76,81,19.0,19.0,0.0
+don't have a preference,39,41,10.0,10.0,0.0
+other,4,4,1.0,1.0,0.0
+no response,3,3,1.0,1.0,0.0
