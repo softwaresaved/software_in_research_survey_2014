@@ -20,7 +20,6 @@ LIST_OF_RESULT_NAMES = [
     'Question 3.csv',
     'Question 4.csv',
     'Question 5.csv',
-    'Question 6.csv',
     'Question 6.csv',    
     'Question 7.csv',
     'Question 8.csv',
@@ -160,7 +159,7 @@ def compare_results(dfs_old, dfs_new):
     return dfs_summary_comparison
 
 
-def totals(dfs_summary_comparison):
+def responses(dfs_summary_comparison):
 
     question_list = []
     new_list = []
@@ -171,11 +170,28 @@ def totals(dfs_summary_comparison):
         new_list.append(int(dfs_summary_comparison[current]['new_analysis'].sum()))
         old_list.append(int(dfs_summary_comparison[current]['old_analysis'].sum()))
 
-    totals = {'question': question_list, 'new_analysis': new_list, 'old_analysis': old_list}
+    responses = {'question': question_list, 'new_analysis': new_list, 'old_analysis': old_list}
+
+    df_responses = pd.DataFrame.from_dict(responses)
+    df_responses.set_index('question', drop = True, inplace = True)
+    df_responses['percentage_diff'] = round(100*(df_responses['new_analysis']-df_responses['old_analysis'])/df_responses['old_analysis'],0)
+
+    return df_responses
+
+
+def differences(dfs_summary_comparison):
+
+    question_list = []
+    percentages = []
+
+    for current in LIST_OF_RESULT_NAMES:
+        question_list.append(current[:-4])    
+        percentages.append(round(abs(dfs_summary_comparison[current]['new_minus_old_percentage']).mean(),1))
+
+    totals = {'question': question_list, 'av_percent_difference': percentages}
 
     df_totals = pd.DataFrame.from_dict(totals)
     df_totals.set_index('question', drop = True, inplace = True)
-    df_totals['percentage_diff'] = round(100*(df_totals['new_analysis']-df_totals['old_analysis'])/df_totals['old_analysis'],0)
 
     return df_totals
 
@@ -199,10 +215,16 @@ def main():
         export_to_csv(dfs_summary_comparison[key], STOREFILENAME + 'comparison_summary_csvs/', key)
 
     # Get total responses per question and compare
-    df_totals = totals(dfs_summary_comparison)
+    df_responses = responses(dfs_summary_comparison)
 
     # Save totals to csv
-    export_to_csv(df_totals, STOREFILENAME + 'comparison_summary_csvs/', 'responses_per_question.csv')
+    export_to_csv(df_responses, STOREFILENAME + 'comparison_summary_csvs/', 'responses_per_question.csv')
+
+    # Get total responses per question and compare
+    df_differences = differences(dfs_summary_comparison)
+
+    # Save totals to csv
+    export_to_csv(df_differences, STOREFILENAME + 'comparison_summary_csvs/', 'differences_per_question.csv')
 
 
 if __name__ == '__main__':
