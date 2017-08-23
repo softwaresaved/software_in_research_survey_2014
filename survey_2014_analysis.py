@@ -52,6 +52,20 @@ def strip_whitespace(df):
             print('Skipping... cannot stip whitespace from non-string columns (Do not panic, it is fine)')
     return df
 
+def blankety_stripper(df):
+    """
+    Due to a bug in OpenRefine, I had to fill blank responses in Q11 with a 
+    string to allow me to tranpose cells in rows back into columns after
+    the laborious cleaning of the Q11 responses.
+    In this function, we strip that string and replace it with null
+    so that it doesn't throw off later calculations.
+    :params: a df with 'blank_response' in the Question 11 columns
+    :return: a df with NaNs used for the blank responses in the Question 11 columns
+    """
+    df.replace('blank_response', np.nan, inplace=True)
+
+    return df
+
 
 def get_groupings(df):
 
@@ -171,6 +185,9 @@ def main():
 
     # Strip annoying whitespace from cols containing strings
     df = strip_whitespace(df)
+    
+    # Replace blank_response
+    df = blankety_stripper(df)
 
     # Record which questions span 1 col and which span multiple cols
     grouped_cols = get_groupings(df)
