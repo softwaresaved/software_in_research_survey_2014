@@ -1,32 +1,32 @@
-unnamed: 0,new_analysis,old_analysis,percentage diff
-epsrc - engineering and physical sciences research council,87.0,89.0,-2.0
-university central funds,50.0,54.0,-7.0
-european union,29.0,,
-esrc - economic and social research council,28.0,31.0,-10.0
-"other foundation, society or charity",28.0,,
-don't know,23.0,26.0,-12.0
-nerc - natural environment research council,20.0,20.0,0.0
-mrc - medical research council,20.0,21.0,-5.0
-industry,17.0,6.0,183.0
-stfc - science and technology facilities council,14.0,15.0,-7.0
-bbsrc - biotechnology and biological sciences research council,14.0,14.0,0.0
-wellcome trust,13.0,13.0,0.0
-nihr,12.0,,
-ahrc - arts and humanities research council,11.0,10.0,10.0
-uk government,5.0,,
-mixed funding,3.0,,
-self funded,3.0,,
-non-uk government,3.0,,
-no funding,2.0,,
-european research council,2.0,,
-not known,2.0,,
-nih,2.0,,
-no answer,1.0,,
-hefce,1.0,,
-not prepared to answer,1.0,,
-others,,68.0,
-european,,27.0,
-national institute for health research,,13.0,
-leverhulme trust,,6.0,
-cancer research uk,,2.0,
-private source,,2.0,
+unnamed: 0,new_analysis,old_analysis,new_analysis_percentage,old_analysis_percentage,new_minus_old_percentage
+epsrc - engineering and physical sciences research council,87.0,89.0,22.0,21.0,1.0
+university central funds,50.0,54.0,13.0,13.0,0.0
+european union,29.0,,7.0,,
+esrc - economic and social research council,28.0,31.0,7.0,7.0,0.0
+"other foundation, society or charity",28.0,,7.0,,
+don't know,23.0,26.0,6.0,6.0,0.0
+nerc - natural environment research council,20.0,20.0,5.0,5.0,0.0
+mrc - medical research council,20.0,21.0,5.0,5.0,0.0
+industry,17.0,6.0,4.0,1.0,3.0
+stfc - science and technology facilities council,14.0,15.0,4.0,4.0,0.0
+bbsrc - biotechnology and biological sciences research council,14.0,14.0,4.0,3.0,1.0
+wellcome trust,13.0,13.0,3.0,3.0,0.0
+nihr,12.0,,3.0,,
+ahrc - arts and humanities research council,11.0,10.0,3.0,2.0,1.0
+uk government,5.0,,1.0,,
+mixed funding,3.0,,1.0,,
+self funded,3.0,,1.0,,
+non-uk government,3.0,,1.0,,
+no funding,2.0,,1.0,,
+european research council,2.0,,1.0,,
+not known,2.0,,1.0,,
+nih,2.0,,1.0,,
+no answer,1.0,,0.0,,
+hefce,1.0,,0.0,,
+not prepared to answer,1.0,,0.0,,
+others,,68.0,,16.0,
+european,,27.0,,6.0,
+national institute for health research,,13.0,,3.0,
+leverhulme trust,,6.0,,1.0,
+cancer research uk,,2.0,,0.0,
+private source,,2.0,,0.0,

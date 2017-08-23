@@ -1,4 +1,4 @@
-unnamed: 0,new_analysis,old_analysis,percentage diff
-it would not be practical to conduct my work without software,269,286,-6.0
-"my work would require more effort, but it would still be possible",82,88,-7.0
-it would make no significant difference to my work,40,43,-7.0
+unnamed: 0,new_analysis,old_analysis,new_analysis_percentage,old_analysis_percentage,new_minus_old_percentage
+it would not be practical to conduct my work without software,269,286,69.0,69.0,0.0
+"my work would require more effort, but it would still be possible",82,88,21.0,21.0,0.0
+it would make no significant difference to my work,40,43,10.0,10.0,0.0

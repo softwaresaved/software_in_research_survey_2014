@@ -1,5 +1,5 @@
-unnamed: 0,new_analysis,old_analysis,percentage diff
-fixed term,192.0,207,-7.0
-permanent,174.0,184,-5.0
-prefer not to say,16.0,17,-6.0
-no response,,9,
+unnamed: 0,new_analysis,old_analysis,new_analysis_percentage,old_analysis_percentage,new_minus_old_percentage
+fixed term,192.0,207,50.0,50.0,0.0
+permanent,174.0,184,46.0,44.0,2.0
+prefer not to say,16.0,17,4.0,4.0,0.0
+no response,,9,,2.0,

@@ -143,7 +143,9 @@ def compare_results(dfs_old, dfs_new):
         # Use the first column (called 'unnamed: 0'), which holds the answer options, as the index
         df_compare.set_index('unnamed: 0', drop = True, inplace = True)
 
-        df_compare['percentage diff'] = round(100*(df_compare['new_analysis']-df_compare['old_analysis'])/df_compare['old_analysis'],0)
+        df_compare['new_analysis_percentage'] = round(100*(df_compare['new_analysis'])/df_compare['new_analysis'].sum(),0)
+        df_compare['old_analysis_percentage'] = round(100*(df_compare['old_analysis'])/df_compare['old_analysis'].sum(),0)
+        df_compare['new_minus_old_percentage'] = df_compare['new_analysis_percentage']-df_compare['old_analysis_percentage']
 
         # Store results in dict of dfs
         dfs_summary_comparison[key] = df_compare
@@ -166,7 +168,7 @@ def totals(dfs_summary_comparison):
 
     df_totals = pd.DataFrame.from_dict(totals)
     df_totals.set_index('question', drop = True, inplace = True)
-    df_totals['percentage_diff'] = round(100*df_totals['new_analysis']/df_totals['old_analysis'],0)
+    df_totals['percentage_diff'] = round(100*(df_totals['new_analysis']-df_totals['old_analysis'])/df_totals['old_analysis'],0)
 
     return df_totals
 

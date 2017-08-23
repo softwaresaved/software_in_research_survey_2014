@@ -1,5 +1,5 @@
-unnamed: 0,new_analysis,old_analysis,percentage diff
-no,171,178,-4.0
-i'm not involved in bid writing,97,107,-9.0
-yes,64,69,-7.0
-"no, but we expected to develop software as part of the project",59,63,-6.0
+unnamed: 0,new_analysis,old_analysis,new_analysis_percentage,old_analysis_percentage,new_minus_old_percentage
+no,171,178,44.0,43.0,1.0
+i'm not involved in bid writing,97,107,25.0,26.0,-1.0
+yes,64,69,16.0,17.0,-1.0
+"no, but we expected to develop software as part of the project",59,63,15.0,15.0,0.0

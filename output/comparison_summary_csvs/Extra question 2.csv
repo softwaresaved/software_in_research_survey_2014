@@ -1,6 +1,6 @@
-unnamed: 0,new_analysis,old_analysis,percentage diff
-male,244.0,257,-5.0
-female,135.0,148,-9.0
-prefer not to say,7.0,7,0.0
-other,2.0,2,0.0
-no response,,3,
+unnamed: 0,new_analysis,old_analysis,new_analysis_percentage,old_analysis_percentage,new_minus_old_percentage
+male,244.0,257,63.0,62.0,1.0
+female,135.0,148,35.0,35.0,0.0
+prefer not to say,7.0,7,2.0,2.0,0.0
+other,2.0,2,1.0,0.0,1.0
+no response,,3,,1.0,

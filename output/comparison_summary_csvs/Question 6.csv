@@ -1,3 +1,3 @@
-unnamed: 0,new_analysis,old_analysis,percentage diff
-yes,358,383,-7.0
-no,33,34,-3.0
+unnamed: 0,new_analysis,old_analysis,new_analysis_percentage,old_analysis_percentage,new_minus_old_percentage
+yes,358,383,92.0,92.0,0.0
+no,33,34,8.0,8.0,0.0

@@ -1,11 +1,11 @@
-unnamed: 0,new_analysis,old_analysis,percentage diff
-"biological, mathematical & physical sciences",160.0,167,-4.0
-engineering & technology,76.0,81,-6.0
-"medicine, dentistry & health",55.0,57,-4.0
-social studies,38.0,44,-14.0
-humanities & language based studies & archaeology,34.0,38,-11.0
-administrative & business studies,8.0,8,0.0
-"agriculture, forestry & veterinary science",7.0,7,0.0
-education,7.0,7,0.0
-architecture & planning,6.0,6,0.0
-"design, creative & performing arts",,2,
+unnamed: 0,new_analysis,old_analysis,new_analysis_percentage,old_analysis_percentage,new_minus_old_percentage
+"biological, mathematical & physical sciences",160.0,167,41.0,40.0,1.0
+engineering & technology,76.0,81,19.0,19.0,0.0
+"medicine, dentistry & health",55.0,57,14.0,14.0,0.0
+social studies,38.0,44,10.0,11.0,-1.0
+humanities & language based studies & archaeology,34.0,38,9.0,9.0,0.0
+administrative & business studies,8.0,8,2.0,2.0,0.0
+"agriculture, forestry & veterinary science",7.0,7,2.0,2.0,0.0
+education,7.0,7,2.0,2.0,0.0
+architecture & planning,6.0,6,2.0,1.0,1.0
+"design, creative & performing arts",,2,,0.0,

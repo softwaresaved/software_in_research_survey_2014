@@ -1,6 +1,6 @@
-unnamed: 0,new_analysis,old_analysis,percentage diff
-i conduct research,371,395.0,-6.0
-i manage researchers or research projects,140,149.0,-6.0
-i support researchers,96,104.0,-8.0
-i develop software for researchers,64,71.0,-10.0
-other,16,,
+unnamed: 0,new_analysis,old_analysis,new_analysis_percentage,old_analysis_percentage,new_minus_old_percentage
+i conduct research,371,395.0,54.0,55.0,-1.0
+i manage researchers or research projects,140,149.0,20.0,21.0,-1.0
+i support researchers,96,104.0,14.0,14.0,0.0
+i develop software for researchers,64,71.0,9.0,10.0,-1.0
+other,16,,2.0,,
