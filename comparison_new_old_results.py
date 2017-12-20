@@ -185,7 +185,9 @@ def differences(dfs_summary_comparison):
     percentages = []
 
     for current in LIST_OF_RESULT_NAMES:
-        question_list.append(current[:-4])    
+        question_list.append(current[:-4])
+        # Need the abs() to ensure that positive and negative differences don't cancel each other
+        # and make the results look better than they are
         percentages.append(round(abs(dfs_summary_comparison[current]['new_minus_old_percentage']).mean(),1))
 
     totals = {'question': question_list, 'av_percent_difference': percentages}
